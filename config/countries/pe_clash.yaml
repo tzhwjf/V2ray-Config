@@ -60,20 +60,14 @@ dns:
     - 208.67.220.220
 
 proxies:
-  - name: "🇱🇺_1"
-    type: vless
-    server: "193.239.179.15"
+  - name: "🇵🇪_1"
+    type: trojan
+    server: "38.180.173.150"
     port: 443
-    uuid: "1d38d2b2-342f-4a01-93df-f24fb0277c70"
-    udp: true
-    tls: true
+    password: "af4b064a9c39472fb34ad8b113acdc6b"
+    sni: "38.180.173.150"
     skip-cert-verify: true
-    servername: "worldoftanks.asia"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4"
-      short-id: ""
-    flow: "xtls-rprx-vision"
+    udp: true
 
 proxy-groups:
   - name: "PROXY"
@@ -90,7 +84,7 @@ proxy-groups:
     tolerance: 30
     lazy: true
     proxies:
-      - "🇱🇺_1"
+      - "🇵🇪_1"
 
 
   - name: "Load Balance"
@@ -99,7 +93,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "🇱🇺_1"
+      - "🇵🇪_1"
 
 rules:
   - MATCH,PROXY

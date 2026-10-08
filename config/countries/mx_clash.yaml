@@ -61,11 +61,12 @@ dns:
 
 proxies:
   - name: "🇲🇽_1"
-    type: ss
-    server: "147.78.1.141"
-    port: 16672
-    cipher: "aes-128-gcm"
-    password: "67c57ae584eecd70396fcd7ca7521130"
+    type: trojan
+    server: "154.205.152.109"
+    port: 443
+    password: "af4b064a9c39472fb34ad8b113acdc6b"
+    sni: "154.205.152.109"
+    skip-cert-verify: true
     udp: true
   - name: "🇲🇽_2"
     type: ss
@@ -73,6 +74,27 @@ proxies:
     port: 18777
     cipher: "aes-128-gcm"
     password: "ce5b082224eb630984b36e839c7363cd"
+    udp: true
+  - name: "🇲🇽_3"
+    type: ss
+    server: "147.78.1.141"
+    port: 16672
+    cipher: "aes-128-gcm"
+    password: "67c57ae584eecd70396fcd7ca7521130"
+    udp: true
+  - name: "🇲🇽_4"
+    type: ss
+    server: "82.27.100.120"
+    port: 18777
+    cipher: "aes-128-gcm"
+    password: "ce5b082224eb630984b36e839c7363cd"
+    udp: true
+  - name: "🇲🇽_5"
+    type: ss
+    server: "147.78.1.141"
+    port: 16672
+    cipher: "aes-128-gcm"
+    password: "67c57ae584eecd70396fcd7ca7521130"
     udp: true
 
 proxy-groups:
@@ -92,6 +114,9 @@ proxy-groups:
     proxies:
       - "🇲🇽_1"
       - "🇲🇽_2"
+      - "🇲🇽_3"
+      - "🇲🇽_4"
+      - "🇲🇽_5"
 
 
   - name: "Load Balance"
@@ -102,6 +127,9 @@ proxy-groups:
     proxies:
       - "🇲🇽_1"
       - "🇲🇽_2"
+      - "🇲🇽_3"
+      - "🇲🇽_4"
+      - "🇲🇽_5"
 
 rules:
   - MATCH,PROXY
