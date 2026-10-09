@@ -62,7 +62,21 @@ dns:
 proxies:
   - name: "🇨🇿_1"
     type: vless
-    server: "193.23.195.37"
+    server: "31.76.115.238"
+    port: 8443
+    uuid: "8ff3db5a-5f41-4f25-a8a4-7fbf00f1c319"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "ya.ru"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ"
+      short-id: "d2061bb1"
+    flow: "xtls-rprx-vision"
+  - name: "🇨🇿_2"
+    type: vless
+    server: "13.143.137.206"
     port: 8443
     uuid: "9ebf4fda-7395-4800-b42f-b2dda649880a"
     udp: true
@@ -74,7 +88,7 @@ proxies:
       public-key: "1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ"
       short-id: "d2061bb1"
     flow: "xtls-rprx-vision"
-  - name: "🇨🇿_2"
+  - name: "🇨🇿_3"
     type: vless
     server: "31.76.7.227"
     port: 443
@@ -88,9 +102,37 @@ proxies:
       public-key: "nIL5EeUo2XUkCaLJGbzgRm6zhF-96kWvV2VmhEt3CX4"
       short-id: "4af4102cb26e59"
     flow: "xtls-rprx-vision"
-  - name: "🇨🇿_3"
+  - name: "🇨🇿_4"
     type: vless
     server: "gw1.edgemedia.lol"
+    port: 8443
+    uuid: "9ebf4fda-7395-4800-b42f-b2dda649880a"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "ya.ru"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ"
+      short-id: "d2061bb1"
+    flow: "xtls-rprx-vision"
+  - name: "🇨🇿_5"
+    type: vless
+    server: "gw2.edgemedia.lol"
+    port: 8443
+    uuid: "8ff3db5a-5f41-4f25-a8a4-7fbf00f1c319"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "ya.ru"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ"
+      short-id: "d2061bb1"
+    flow: "xtls-rprx-vision"
+  - name: "🇨🇿_6"
+    type: vless
+    server: "193.23.195.37"
     port: 8443
     uuid: "9ebf4fda-7395-4800-b42f-b2dda649880a"
     udp: true
@@ -121,6 +163,9 @@ proxy-groups:
       - "🇨🇿_1"
       - "🇨🇿_2"
       - "🇨🇿_3"
+      - "🇨🇿_4"
+      - "🇨🇿_5"
+      - "🇨🇿_6"
 
 
   - name: "Load Balance"
@@ -132,6 +177,9 @@ proxy-groups:
       - "🇨🇿_1"
       - "🇨🇿_2"
       - "🇨🇿_3"
+      - "🇨🇿_4"
+      - "🇨🇿_5"
+      - "🇨🇿_6"
 
 rules:
   - MATCH,PROXY

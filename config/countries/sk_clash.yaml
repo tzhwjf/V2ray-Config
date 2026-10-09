@@ -60,14 +60,15 @@ dns:
     - 208.67.220.220
 
 proxies:
-  - name: "🇪🇬_1"
-    type: trojan
-    server: "38.54.59.90"
-    port: 443
-    password: "af4b064a9c39472fb34ad8b113acdc6b"
-    sni: "38.54.59.90"
-    skip-cert-verify: true
+  - name: "🇸🇰_1"
+    type: vless
+    server: "80.243.228.73"
+    port: 2085
+    uuid: "41fe1f2f-f981-44a5-939f-9b59d15ca955"
     udp: true
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "vless"
 
 proxy-groups:
   - name: "PROXY"
@@ -84,7 +85,7 @@ proxy-groups:
     tolerance: 30
     lazy: true
     proxies:
-      - "🇪🇬_1"
+      - "🇸🇰_1"
 
 
   - name: "Load Balance"
@@ -93,7 +94,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "🇪🇬_1"
+      - "🇸🇰_1"
 
 rules:
   - MATCH,PROXY
