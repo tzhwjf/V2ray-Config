@@ -62,9 +62,9 @@ dns:
 proxies:
   - name: "🇸🇰_1"
     type: vless
-    server: "80.243.228.73"
+    server: "80.243.228.61"
     port: 2085
-    uuid: "41fe1f2f-f981-44a5-939f-9b59d15ca955"
+    uuid: "8f6f8a4a-b30b-4061-bf5f-646997a6bcc9"
     udp: true
     network: grpc
     grpc-opts:

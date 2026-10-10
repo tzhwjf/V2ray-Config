@@ -62,15 +62,6 @@ dns:
 proxies:
   - name: "🇪🇸_1"
     type: vless
-    server: "85.90.217.42"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "85.90.217.42"
-  - name: "🇪🇸_2"
-    type: vless
     server: "46.28.71.247"
     port: 443
     uuid: "12c53e32-e589-47d6-b857-e4132294f767"
@@ -82,7 +73,42 @@ proxies:
       public-key: "v4MuZIvFrTPT5GHMSaPryUAbIZlLstmsUTzmC1E-JTE"
       short-id: "0dfc23fe80778c00"
     flow: "xtls-rprx-vision"
+  - name: "🇪🇸_2"
+    type: vless
+    server: "45.198.55.200"
+    port: 25136
+    uuid: "c1c13ef7-affa-47e1-8967-25cc67679c10"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "nkmfL3QCskKAfBUk-OiTgcWyIXGmXrZVtDEoio0Qo1w"
+      short-id: "f78838fbd85e59ae"
   - name: "🇪🇸_3"
+    type: vless
+    server: "es3.h1cloud.net"
+    port: 25136
+    uuid: "c1c13ef7-affa-47e1-8967-25cc67679c10"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "nkmfL3QCskKAfBUk-OiTgcWyIXGmXrZVtDEoio0Qo1w"
+      short-id: "f78838fbd85e59ae"
+  - name: "🇪🇸_4"
+    type: vless
+    server: "85.90.217.42"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "85.90.217.42"
+  - name: "🇪🇸_5"
     type: trojan
     server: "65.20.102.54"
     port: 443
@@ -90,21 +116,21 @@ proxies:
     sni: "www.gpt123.one"
     skip-cert-verify: true
     udp: true
-  - name: "🇪🇸_4"
-    type: ss
-    server: "108.181.121.226"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "WSyL4XTwNsdv"
-    udp: true
-  - name: "🇪🇸_5"
-    type: ss
-    server: "108.181.121.226"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "WSyL4XTwNsdv"
-    udp: true
   - name: "🇪🇸_6"
+    type: ss
+    server: "108.181.121.226"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "WSyL4XTwNsdv"
+    udp: true
+  - name: "🇪🇸_7"
+    type: ss
+    server: "108.181.121.226"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "WSyL4XTwNsdv"
+    udp: true
+  - name: "🇪🇸_8"
     type: ss
     server: "108.181.121.226"
     port: 8388
@@ -133,6 +159,8 @@ proxy-groups:
       - "🇪🇸_4"
       - "🇪🇸_5"
       - "🇪🇸_6"
+      - "🇪🇸_7"
+      - "🇪🇸_8"
 
 
   - name: "Load Balance"
@@ -147,6 +175,8 @@ proxy-groups:
       - "🇪🇸_4"
       - "🇪🇸_5"
       - "🇪🇸_6"
+      - "🇪🇸_7"
+      - "🇪🇸_8"
 
 rules:
   - MATCH,PROXY
