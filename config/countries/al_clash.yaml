@@ -76,6 +76,20 @@ proxies:
     flow: "xtls-rprx-vision"
   - name: "🇦🇱_2"
     type: ss
+    server: "ruot.ayucloudservices.nl"
+    port: 35190
+    cipher: "aes-128-gcm"
+    password: "376bee69-90c3-4c5f-af81-4de2b64207a5"
+    udp: true
+  - name: "🇦🇱_3"
+    type: ss
+    server: "130.49.189.158"
+    port: 43558
+    cipher: "chacha20-ietf-poly1305"
+    password: "eicdhshSrFLCx/sZ1PSpuKyoVWGZpU95tFS4iGC1c04="
+    udp: true
+  - name: "🇦🇱_4"
+    type: ss
     server: "130.49.189.158"
     port: 43558
     cipher: "chacha20-ietf-poly1305"
@@ -99,6 +113,8 @@ proxy-groups:
     proxies:
       - "🇦🇱_1"
       - "🇦🇱_2"
+      - "🇦🇱_3"
+      - "🇦🇱_4"
 
 
   - name: "Load Balance"
@@ -109,6 +125,8 @@ proxy-groups:
     proxies:
       - "🇦🇱_1"
       - "🇦🇱_2"
+      - "🇦🇱_3"
+      - "🇦🇱_4"
 
 rules:
   - MATCH,PROXY
