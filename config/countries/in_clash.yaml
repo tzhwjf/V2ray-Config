@@ -68,6 +68,19 @@ proxies:
     udp: true
   - name: "🇮🇳_2"
     type: vless
+    server: "194.61.31.126"
+    port: 2053
+    uuid: "1d4e18bd-1f26-4915-b35a-7ace4826e76a"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU"
+      short-id: "9980e0609b0d3891"
+  - name: "🇮🇳_3"
+    type: vless
     server: "5.253.28.224"
     port: 40443
     uuid: "af5eac96-e478-488a-bc8c-45269d7e8847"
@@ -80,47 +93,7 @@ proxies:
       public-key: "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw"
       short-id: "68a8"
     flow: "xtls-rprx-vision"
-  - name: "🇮🇳_3"
-    type: vless
-    server: "148.113.5.44"
-    port: 443
-    uuid: "72ea5a91-ffcc-43d2-9297-5993c3abf186"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "QLjTpkXRB453R9fXhJzKkc_q_gSm2MZrIOuxW4uW-mI"
-      short-id: "221873918e0bb74d"
-    flow: "xtls-rprx-vision"
   - name: "🇮🇳_4"
-    type: vless
-    server: "194.61.31.126"
-    port: 2053
-    uuid: "1d4e18bd-1f26-4915-b35a-7ace4826e76a"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.apple.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU"
-      short-id: "9980e0609b0d3891"
-  - name: "🇮🇳_5"
-    type: vless
-    server: "5.253.42.164"
-    port: 40443
-    uuid: "e99ba96d-dec8-42eb-be53-19e71eef7cab"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "deepl.com"
-    reality-opts:
-      public-key: "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw"
-      short-id: "68a8"
-    flow: "xtls-rprx-vision"
-  - name: "🇮🇳_6"
     type: vless
     server: "dorado.yokkastars.com"
     port: 40443
@@ -134,31 +107,62 @@ proxies:
       public-key: "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw"
       short-id: "68a8"
     flow: "xtls-rprx-vision"
+  - name: "🇮🇳_5"
+    type: vless
+    server: "148.113.5.44"
+    port: 443
+    uuid: "72ea5a91-ffcc-43d2-9297-5993c3abf186"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "QLjTpkXRB453R9fXhJzKkc_q_gSm2MZrIOuxW4uW-mI"
+      short-id: "221873918e0bb74d"
+    flow: "xtls-rprx-vision"
+  - name: "🇮🇳_6"
+    type: vless
+    server: "217.217.249.70"
+    port: 43000
+    uuid: "47b83a67-f69d-4d15-9c63-73b7cd0f7d26"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "217.217.249.70"
+    client-fingerprint: "random"
+    reality-opts:
+      public-key: "3gTzdNHyWfheX_IrYiMoraornFzYxPFU9EGirW1gfRk"
+      short-id: "99f735c4"
+    flow: "xtls-rprx-vision"
   - name: "🇮🇳_7"
-    type: trojan
-    server: "64.227.131.19"
-    port: 443
-    password: "21c6c7cb-332b-4a0c-9ad7-dff9c3111442"
-    sni: "us02web.zoom.us"
-    skip-cert-verify: true
+    type: vless
+    server: "5.253.42.164"
+    port: 40443
+    uuid: "e99ba96d-dec8-42eb-be53-19e71eef7cab"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "deepl.com"
+    reality-opts:
+      public-key: "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw"
+      short-id: "68a8"
+    flow: "xtls-rprx-vision"
   - name: "🇮🇳_8"
-    type: trojan
-    server: "185.67.125.119"
+    type: vless
+    server: "109.237.98.217"
     port: 443
-    password: "3747000103274291200"
-    sni: "oriented-pug.adder289.quest"
-    skip-cert-verify: true
+    uuid: "c9c219dc-50da-4135-8e5b-67020291f0ec"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "rdaes5js9g1.img-assets.world"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "lR8BTY8XJ6qt9th7wR3ZnfwCiqRs2yosrONK-SuSsDo"
+      short-id: ""
+    flow: "xtls-rprx-vision"
   - name: "🇮🇳_9"
-    type: trojan
-    server: "hyfuuf6.wsone.icu"
-    port: 443
-    password: "M7v%w11Se*"
-    sni: "hyfuuf6.wsone.icu"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇮🇳_10"
     type: trojan
     server: "143.110.246.228"
     port: 443
@@ -166,15 +170,7 @@ proxies:
     sni: "kdlsupport.zendesk.com"
     skip-cert-verify: true
     udp: true
-  - name: "🇮🇳_11"
-    type: trojan
-    server: "34.131.228.210"
-    port: 443
-    password: "M7v%w11Se*"
-    sni: "hyfuuf6.wsone.icu"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇮🇳_12"
+  - name: "🇮🇳_10"
     type: trojan
     server: "185.67.125.147"
     port: 443
@@ -182,37 +178,108 @@ proxies:
     sni: "optimal-owl.goat627.mom"
     skip-cert-verify: true
     udp: true
+  - name: "🇮🇳_11"
+    type: trojan
+    server: "65.20.82.177"
+    port: 443
+    password: "Tg3RnK7Xp8B1"
+    sni: "ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇮🇳_12"
+    type: trojan
+    server: "in.tronsg.com"
+    port: 443
+    password: "Trojan@82164024"
+    sni: "in.tronsg.com"
+    skip-cert-verify: true
+    udp: true
   - name: "🇮🇳_13"
-    type: ss
-    server: "103.181.177.88"
+    type: trojan
+    server: "34.131.228.210"
     port: 443
-    cipher: "none"
-    password: "14b02e2a-8930-4afb-8412-ea4a4954ca5b"
+    password: "M7v%w11Se*"
+    sni: "hyfuuf6.wsone.icu"
+    skip-cert-verify: true
     udp: true
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: "websocket"
-      path: "14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\\=2560"
-      host: "ylnhh.us.ci"
   - name: "🇮🇳_14"
-    type: ss
-    server: "103.181.177.88"
+    type: trojan
+    server: "64.227.131.19"
     port: 443
-    cipher: "none"
-    password: "14b02e2a-8930-4afb-8412-ea4a4954ca5b"
+    password: "21c6c7cb-332b-4a0c-9ad7-dff9c3111442"
+    sni: "us02web.zoom.us"
+    skip-cert-verify: true
     udp: true
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: "websocket"
-      path: "14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\\=2560"
-      host: "ylnhh.us.ci"
   - name: "🇮🇳_15"
+    type: trojan
+    server: "hyfuuf6.wsone.icu"
+    port: 443
+    password: "M7v%w11Se*"
+    sni: "hyfuuf6.wsone.icu"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇮🇳_16"
+    type: trojan
+    server: "35.244.28.130"
+    port: 443
+    password: "M7v%w11Se*"
+    sni: "tttyder.wsone.icu"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇮🇳_17"
+    type: trojan
+    server: "185.67.125.147"
+    port: 443
+    password: "3747000103274291200"
+    sni: "polished-collie.adder289.quest"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇮🇳_18"
+    type: trojan
+    server: "tttyder.wsone.icu"
+    port: 443
+    password: "M7v%w11Se*"
+    sni: "tttyder.wsone.icu"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇮🇳_19"
+    type: ss
+    server: "45.149.114.171"
+    port: 777
+    cipher: "chacha20-ietf-poly1305"
+    password: "Jeoq8ujfkqZKKvACQhoqBQ1PA3uq4242"
+    udp: true
+  - name: "🇮🇳_20"
     type: ss
     server: "172.105.39.124"
     port: 7002
     cipher: "aes-256-gcm"
     password: "RexnBgU7EV5ADxG"
     udp: true
+  - name: "🇮🇳_21"
+    type: ss
+    server: "103.181.177.88"
+    port: 443
+    cipher: "none"
+    password: "14b02e2a-8930-4afb-8412-ea4a4954ca5b"
+    udp: true
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: "websocket"
+      path: "14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\\=2560"
+      host: "ylnhh.us.ci"
+  - name: "🇮🇳_22"
+    type: ss
+    server: "103.181.177.88"
+    port: 443
+    cipher: "none"
+    password: "14b02e2a-8930-4afb-8412-ea4a4954ca5b"
+    udp: true
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: "websocket"
+      path: "14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\\=2560"
+      host: "ylnhh.us.ci"
 
 proxy-groups:
   - name: "PROXY"
@@ -244,6 +311,13 @@ proxy-groups:
       - "🇮🇳_13"
       - "🇮🇳_14"
       - "🇮🇳_15"
+      - "🇮🇳_16"
+      - "🇮🇳_17"
+      - "🇮🇳_18"
+      - "🇮🇳_19"
+      - "🇮🇳_20"
+      - "🇮🇳_21"
+      - "🇮🇳_22"
 
 
   - name: "Load Balance"
@@ -267,6 +341,13 @@ proxy-groups:
       - "🇮🇳_13"
       - "🇮🇳_14"
       - "🇮🇳_15"
+      - "🇮🇳_16"
+      - "🇮🇳_17"
+      - "🇮🇳_18"
+      - "🇮🇳_19"
+      - "🇮🇳_20"
+      - "🇮🇳_21"
+      - "🇮🇳_22"
 
 rules:
   - MATCH,PROXY

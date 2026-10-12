@@ -82,6 +82,14 @@ proxies:
     sni: "38.54.27.117"
     skip-cert-verify: true
     udp: true
+  - name: "🇧🇬_3"
+    type: trojan
+    server: "91.227.77.87"
+    port: 443
+    password: "bpb-trojan"
+    sni: "skwygx.top"
+    skip-cert-verify: true
+    udp: true
 
 proxy-groups:
   - name: "PROXY"
@@ -100,6 +108,7 @@ proxy-groups:
     proxies:
       - "🇧🇬_1"
       - "🇧🇬_2"
+      - "🇧🇬_3"
 
 
   - name: "Load Balance"
@@ -110,6 +119,7 @@ proxy-groups:
     proxies:
       - "🇧🇬_1"
       - "🇧🇬_2"
+      - "🇧🇬_3"
 
 rules:
   - MATCH,PROXY

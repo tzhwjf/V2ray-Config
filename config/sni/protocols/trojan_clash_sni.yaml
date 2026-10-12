@@ -60,29 +60,18 @@ dns:
     - 208.67.220.220
 
 proxies:
-  - name: "@DeltaKroneckerGithub_3647"
+  - name: "@DeltaKroneckerGithub_3446"
     type: trojan
     server: "127.0.0.1"
     port: 40443
     password: "Telegram_healer_config"
-    sni: "5Er0m2i2eNS2uLpg7SJd45UGqS.87fcvT2k11501YnO2TXm6yw-miPJ2Kr.worKerS.deV"
+    sni: "uH-E03OjZGQ4EV7yy7b.6V46fk4wd2Y8l5p2XTD.WORkErS.Dev"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/tr/5cJhuZZi5ZL6KKmZ5vKVeM?ed=2560"
-  - name: "@DeltaKroneckerGithub_3672"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "0b5fa773-6f37-4134-87d4-0c349742b6f6"
-    sni: "app-538961.user-y0o4gm.workers.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "@DeltaKroneckerGithub_3696"
+      path: "/tr/iXLpDGAew6fKEQeQY84txlnklnRciaQ?ed=2560"
+  - name: "@DeltaKroneckerGithub_3456"
     type: trojan
     server: "127.0.0.1"
     port: 40443
@@ -95,18 +84,31 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.pleadcourt.org"
-  - name: "@DeltaKroneckerGithub_3704"
+  - name: "@DeltaKroneckerGithub_3459"
     type: trojan
     server: "127.0.0.1"
     port: 40443
     password: "Telegram_healer_config"
-    sni: "IJM8X9UgwPIQRmN-Lo-s.ZTl55ltkpuB38y36MCTGM.wOrKERs.deV"
+    sni: "5Er0m2I2eNS2ULPg7Sjd45UGQs.87FCVt2K11501YnO2txm6yw-MiPJ2KR.worKERs.dEV"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/tr/MyONKU8UND5ZRBBUz6C?ed=2560"
-  - name: "@DeltaKroneckerGithub_3710"
+      path: "/tr/VCf8OF27gyXfyS3GNQ1ejyY7sy4?ed=2560"
+  - name: "@DeltaKroneckerGithub_3484"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "Mehdi1234"
+    sni: "purple-recipe-5e30.cimavo4626.workers.dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "purple-recipe-5e30.cimavo4626.workers.dev"
+  - name: "@DeltaKroneckerGithub_3497"
     type: trojan
     server: "127.0.0.1"
     port: 40443
@@ -116,21 +118,54 @@ proxies:
     udp: true
     network: ws
     ws-opts:
-      path: "/"
-  - name: "@DeltaKroneckerGithub_3716"
+      path: "/?ed=2560"
+  - name: "@DeltaKroneckerGithub_3507"
     type: trojan
     server: "127.0.0.1"
     port: 40443
-    password: "humanity"
-    sni: "www.pleadcourt.org"
+    password: "Telegram_healer_config"
+    sni: "30F67SBQ8jJwmT7GyTFc14.0m68-QZ3hQyFnlar6N3IQ.WoRKErS.deV"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/assignment"
+      path: "/tr/D0RNup7f2Tt0Tna3gVu5OvfMJYJjD?ed=2560"
+  - name: "@DeltaKroneckerGithub_3511"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "Telegram_healer_config"
+    sni: "X8xus4X7UTZMDozv2.bZuH25LZINNeTwTOcXYIcx.WORkERs.deV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/nDuppKYyUqsEcG0rcQEg5sghG0?ed=2560"
+  - name: "@DeltaKroneckerGithub_3519"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "letiranbreath-x@^f"
+    sni: "0XS3Ced9.zZzqwdBWq.wOrKErS.DEv"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiYmx1NXI3dml6NjB3NW9nZyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwNC4yOC4yNTUuNzQiXX0=?ed=2560"
       headers:
-        Host: "www.pleadcourt.org"
-  - name: "@DeltaKroneckerGithub_3718"
+        Host: "0xs3ced9.zzzqwdbwq.workers.dev"
+  - name: "@DeltaKroneckerGithub_3542"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "Telegram_healer_config"
+    sni: "30F67SBQ8jJWMT7gytfc14.0m68-qZ3hqYFNlaR6n3Iq.WorKerS.Dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/MBHDTiG2ZHfgBBj9iEpRFkse0tafJ?ed=2560"
+  - name: "@DeltaKroneckerGithub_3589"
     type: trojan
     server: "127.0.0.1"
     port: 40443
@@ -143,7 +178,131 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_3750"
+  - name: "@DeltaKroneckerGithub_3598"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "@DeltaKroneckerGithub_3600"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "@DeltaKroneckerGithub_3606"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "av7fquzvuc99xcs9"
+    sni: "uwu.dianaw.cc.cd"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/@BlueKnight_net--@BlueKnight_net--@BlueKnight_net"
+      headers:
+        Host: "uwu.dianaw.cc.cd"
+  - name: "@DeltaKroneckerGithub_3608"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "eabf1999fefbb7d2"
+    sni: "WaYSi.wAYsI6688.WOrkeRS.deV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/sMpzOZ0eWEt6jbZ1jjN3BaM7LLoQ"
+      headers:
+        Host: "waysi.waysi6688.workers.dev"
+  - name: "@DeltaKroneckerGithub_3623"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "018b8e7b-7813-4dcb-84a5-3c98f1521e00"
+    sni: "id1.nathaya.web.id"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/trojan"
+  - name: "@DeltaKroneckerGithub_3641"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "Telegram_healer_config"
+    sni: "uH-E03OjZGQ4EV7yy7b.6V46fk4wd2Y8l5p2XTD.WORkErS.Dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/iXLpDGAew6fKEQeQY84txlnklnRciaQ?ed=2560"
+  - name: "@DeltaKroneckerGithub_3646"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "Telegram_healer_config"
+    sni: "VRE6R9qRbQI0t25TG.SRTB0M3hdbwr2cJZ8fjUr.WoRKeRS.dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/bDodLFtTQwCZ6EX3ffMYJ06j9EjLse4d?ed=2560"
+  - name: "@DeltaKroneckerGithub_3654"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "mJVGfrOkZGnMywJD2uwmuXgOQ"
+    sni: "127.0.0.1"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/f2fc2a1f"
+      headers:
+        Host: "hl-freedom-2.undef.network"
+  - name: "@DeltaKroneckerGithub_3671"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "@DeltaKroneckerGithub_3698"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "qILX2iK3__aseaW-T&Ab"
+    sni: "w2r2HNwMlM-P33C1-vNWD.hAMEDdSHarABi.WORkERs.dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/mUANpbYjCrbsXiuBa?ed=2560"
+      headers:
+        Host: "w2r2hnwmlm-p33c1-vnwd.hameddsharabi.workers.dev"
+  - name: "@DeltaKroneckerGithub_3742"
     type: trojan
     server: "127.0.0.1"
     port: 40443
@@ -156,6 +315,19 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.pleadcourt.org"
+  - name: "@DeltaKroneckerGithub_3761"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "letiranbreath-x@^f"
+    sni: "0XS3Ced9.zZzqwdBWq.wOrKErS.DEv"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiYmx1NXI3dml6NjB3NW9nZyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwNC4yOC4yNTUuNzQiXX0=?ed=2560"
+      headers:
+        Host: "0xs3ced9.zzzqwdbwq.workers.dev"
   - name: "@DeltaKroneckerGithub_3770"
     type: trojan
     server: "127.0.0.1"
@@ -169,17 +341,6 @@ proxies:
       path: "/tr/pg4wM48V9O859nmqsJg22EOFKN4S570y?ed=2560"
       headers:
         Host: "dl2uf-ivdezilz3e86rk18.hhvt37tjm2xbosql5hxogn-y.workers.dev"
-  - name: "@DeltaKroneckerGithub_3772"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
   - name: "@DeltaKroneckerGithub_3778"
     type: trojan
     server: "127.0.0.1"
@@ -193,7 +354,7 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_3806"
+  - name: "@DeltaKroneckerGithub_3782"
     type: trojan
     server: "127.0.0.1"
     port: 40443
@@ -206,18 +367,7 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.volumeroot.com"
-  - name: "@DeltaKroneckerGithub_3811"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "HutaoCloud"
-    sni: "185.220.238.77"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/api"
-  - name: "@DeltaKroneckerGithub_3819"
+  - name: "@DeltaKroneckerGithub_3790"
     type: trojan
     server: "127.0.0.1"
     port: 40443
@@ -230,278 +380,57 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.volumeroot.com"
-  - name: "@DeltaKroneckerGithub_3832"
+  - name: "@DeltaKroneckerGithub_3794"
     type: trojan
     server: "127.0.0.1"
     port: 40443
     password: "humanity"
-    sni: "www.calmlunch.com"
+    sni: "www.volumeroot.com"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
       path: "/assignment"
+      headers:
+        Host: "www.volumeroot.com"
+  - name: "@DeltaKroneckerGithub_3800"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "Telegram_healer_config"
+    sni: "5Er0m2i2eNS2uLpg7SJd45UGqS.87fcvT2k11501YnO2TXm6yw-miPJ2Kr.worKerS.deV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/5cJhuZZi5ZL6KKmZ5vKVeM?ed=2560"
+  - name: "@DeltaKroneckerGithub_3812"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "av7fquzvuc99xcs9"
+    sni: "uwu.dianaw.cc.cd"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/@BlueKnight_net--@BlueKnight_net--@BlueKnight_net"
+      headers:
+        Host: "uwu.dianaw.cc.cd"
   - name: "@DeltaKroneckerGithub_3835"
     type: trojan
     server: "127.0.0.1"
     port: 40443
-    password: "Telegram_healer_config"
-    sni: "Z6Y-dAOx0HYhdTdy.R720KPbYX2L3i406.woRKers.DEV"
+    password: "容解析错误trojan"
+    sni: "blackshadow.dpdns.org"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/tr/P9UvWEJwKNGrOjrb1ICnWGhH8iQGDcG?ed=2560"
-  - name: "@DeltaKroneckerGithub_3853"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "0hbl*0RB4T,LSk;JK"
-    sni: "14SW2KRBEO0wv7GZ32H3BnJ.HalABiA061.workeRs.DEv"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/d2y5re8Z9iqkUtWNtSR?ed=2560"
+      path: "//195.123.218.174-443"
       headers:
-        Host: "14sw2krbeo0wv7gz32h3bnj.halabia061.workers.dev"
-  - name: "@DeltaKroneckerGithub_3876"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "Telegram_healer_config"
-    sni: "cdtfrgmtcsbaarmz-9owpz7g4.f9w96pzky6un-covzx6b-hzlm80woj2.workers.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/3F3fUAGJks9doKvjt8AREH4QR?ed=2560"
-      headers:
-        Host: "cdtfrgmtcsbaarmz-9owpz7g4.f9w96pzky6un-covzx6b-hzlm80woj2.workers.dev"
-  - name: "@DeltaKroneckerGithub_3888"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "bd85f5fe32d9446a8b1f59e4f710455b"
-    sni: "BpB-PAnEL-62c3.mlM-eE9A3b83.wOrKErS.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/eyJqdW5rIjoibkN2cER2SDZIUTkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6IiIsInBhbmVsSVBzIjoiWzJhMDI6ODk4OjE0Njo2NDo6XSJ9?ed=2560"
-  - name: "@DeltaKroneckerGithub_3913"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.pleadcourt.org"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.pleadcourt.org"
-  - name: "@DeltaKroneckerGithub_3915"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_3955"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "-wb.oDfOeHifTGMVEf"
-    sni: "C0yR9j09Y2l9G0tD8wa5.2wHBRirhjGslM43zJCqEi.worKeRs.DEV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/JkwIXZZlza6sgoi9?ed=2560"
-  - name: "@DeltaKroneckerGithub_3977"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "PFAiJ0ND-iqYF@NE"
-    sni: "cFOi-2fX16G3-8ry2KDxMcJ.wjESV2IlA3rXBuhpC2NsUgrAChGAWk.wOrKerS.DEv"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/g47sXSSa9D29SmBXchyV?ed=2560"
-  - name: "@DeltaKroneckerGithub_3994"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "pjg&JybcgFsca,+gQMa"
-    sni: "022XW1dmCZG0c6165pcLA6.tOMborn69.WoRKErs.Dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/4SzHKYN7XBvR1ddoFe2atydxL69?ed=2560"
-      headers:
-        Host: "022xw1dmczg0c6165pcla6.tomborn69.workers.dev"
-  - name: "@DeltaKroneckerGithub_4005"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q"
-    sni: "mfyousheng.nl.eu.org"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tjwsLhx0SFASG4l9FERJ1g"
-  - name: "@DeltaKroneckerGithub_4039"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "Telegram_healer_config"
-    sni: "5Er0m2I2eNS2ULPg7Sjd45UGQs.87FCVt2K11501YnO2txm6yw-MiPJ2KR.worKERs.dEV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/VCf8OF27gyXfyS3GNQ1ejyY7sy4?ed=2560"
-  - name: "@DeltaKroneckerGithub_4060"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.pleadcourt.org"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.pleadcourt.org"
-  - name: "@DeltaKroneckerGithub_4077"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-  - name: "@DeltaKroneckerGithub_4081"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "c0c17d1da2c2c9299d5094c8"
-    sni: "ez-3e9698.ezaccess1ec1f0c.workers.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/eyJqdW5rIjoiMDdteWJvazY4azJ3MiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
-  - name: "@DeltaKroneckerGithub_4113"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "Telegram_healer_config"
-    sni: "bktF381B04NcHTXKN8TideZQGF.TcNtH9S31mG1j4TNxLAD62o1s2o.wOrKeRs.dEV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/iKNPzyUClLafWsNIz03UG9xb?ed=2560"
-  - name: "@DeltaKroneckerGithub_4127"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_4151"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_4156"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "PFAiJ0ND-iqYF@NE"
-    sni: "CfOI-2FX16g3-8rY2kdXmCJ.WJeSv2ILA3rXbUhpC2NSugRAchGaWK.WOrkeRs.DEV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/6ybXlA0qpcK2A3ZKNv3ZBRXBvr?ed=2560"
-  - name: "@DeltaKroneckerGithub_4202"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_4208"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-  - name: "@DeltaKroneckerGithub_4221"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-  - name: "@DeltaKroneckerGithub_4261"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "-wb.oDfOeHifTGMVEf"
-    sni: "c0yR9J09Y2l9G0td8wA5.2wHbrirHJgSlM43zJcqeI.WoRkERS.dEv"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/DUxfWnCsYjSEOWSUGmnz?ed=2560"
-  - name: "@DeltaKroneckerGithub_4290"
+        Host: "blackshadow.dpdns.org"
+  - name: "@DeltaKroneckerGithub_3842"
     type: trojan
     server: "127.0.0.1"
     port: 40443
@@ -512,9 +441,42 @@ proxies:
     network: ws
     ws-opts:
       path: "/assignment"
+  - name: "@DeltaKroneckerGithub_3848"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+  - name: "@DeltaKroneckerGithub_3852"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "wWw.Volumeroot.cOm."
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
       headers:
-        Host: "www.volumeroot.com"
-  - name: "@DeltaKroneckerGithub_4298"
+        Host: "www.volumerOot.coM."
+  - name: "@DeltaKroneckerGithub_3860"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+  - name: "@DeltaKroneckerGithub_3892"
     type: trojan
     server: "127.0.0.1"
     port: 40443
@@ -525,31 +487,20 @@ proxies:
     network: ws
     ws-opts:
       path: "/"
-  - name: "@DeltaKroneckerGithub_4302"
+  - name: "@DeltaKroneckerGithub_3897"
     type: trojan
     server: "127.0.0.1"
     port: 40443
-    password: "2bcfbfba-b446-4ad5-93ad-72af9e008f61"
-    sni: "blackshadow.dpdns.org"
+    password: "qILX2iK3__aseaW-T&Ab"
+    sni: "W2r2HNWmlM-P33c1-vNWD.haMeddSHARaBi.wORKeRs.DEv"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/195.123.218.174-443"
-  - name: "@DeltaKroneckerGithub_4349"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "xhl549341"
-    sni: "tro.baiyi.cloudns.org"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
+      path: "/tr/SDeXi2lAaKQ6BEME4I5?ed=2560"
       headers:
-        Host: "tro.baiyi.cloudns.org"
-  - name: "@DeltaKroneckerGithub_4391"
+        Host: "w2r2hnwmlm-p33c1-vnwd.hameddsharabi.workers.dev"
+  - name: "@DeltaKroneckerGithub_3913"
     type: trojan
     server: "127.0.0.1"
     port: 40443
@@ -560,243 +511,18 @@ proxies:
     network: ws
     ws-opts:
       path: "/assignment"
-  - name: "@DeltaKroneckerGithub_4396"
+  - name: "@DeltaKroneckerGithub_3926"
     type: trojan
     server: "127.0.0.1"
     port: 40443
-    password: "c0c17d1da2c2c9299d5094c8"
-    sni: "ez-3e9698.ezaccess1ec1f0c.workers.dev"
+    password: "-wb.oDfOeHifTGMVEf"
+    sni: "c0YR9J09y2l9G0Td8WA5.2whBRirhjgsLm43ZJcqei.WoRKers.DEv"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/eyJqdW5rIjoia1pyRFFaUlU0eSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
-      headers:
-        Host: "ez-3e9698.ezaccess1ec1f0c.workers.dev"
-  - name: "@DeltaKroneckerGithub_4423"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "Telegram_healer_config"
-    sni: "3OQxS5h6kCscecND.ZMh9KCGos2cq55uh6qDYaa938a5UgB.wOrkERS.dEV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/zMUJnc0O87fJR02xzGNed?ed=2560"
-  - name: "@DeltaKroneckerGithub_4429"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "eabf1999fefbb7d2"
-    sni: "WaYSi.wAYsI6688.WOrkeRS.deV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/sMpzOZ0eWEt6jbZ1jjN3BaM7LLoQ"
-  - name: "@DeltaKroneckerGithub_4432"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "Telegram_healer_config"
-    sni: "30F67SBQ8jJwmT7GyTFc14.0m68-QZ3hQyFnlar6N3IQ.WoRKErS.deV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/D0RNup7f2Tt0Tna3gVu5OvfMJYJjD?ed=2560"
-  - name: "@DeltaKroneckerGithub_4468"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "Telegram_healer_config"
-    sni: "30F67SBQ8jJwmT7GyTFc14.0m68-QZ3hQyFnlar6N3IQ.WoRKErS.deV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/D0RNup7f2Tt0Tna3gVu5OvfMJYJjD?ed=2560"
-  - name: "@DeltaKroneckerGithub_4499"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_4504"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "Telegram_healer_config"
-    sni: "To6R63-kKChiGHqm2.vxz0Dduq7to7Su0CDQf.worKERs.DEV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/xwtrOUcg21SS0Ega?ed=2560"
-  - name: "@DeltaKroneckerGithub_4516"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "bpb-trojan"
-    sni: "vless.herogoing.top"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr?ed=2560"
-  - name: "@DeltaKroneckerGithub_4530"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "bpb-trojan"
-    sni: "vless.herogoing.top"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr?ed=2560"
-  - name: "@DeltaKroneckerGithub_4532"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "pjg&JybcgFsca,+gQMa"
-    sni: "022XW1DMCzG0c6165Pcla6.toMBoRn69.woRKeRs.DEV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/4jPX74py1Uh20tnk6uozVTHIZXVMMP?ed=2560"
-      headers:
-        Host: "022xw1dmczg0c6165pcla6.tomborn69.workers.dev"
-  - name: "@DeltaKroneckerGithub_4568"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "0b5fa773-6f37-4134-87d4-0c349742b6f6"
-    sni: "app-538961.user-y0o4gm.workers.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/cmh"
-  - name: "@DeltaKroneckerGithub_4570"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q"
-    sni: "mfyousheng.nl.eu.org"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tjwsLhx0SFASG4l9FERJ1g"
-      headers:
-        Host: "mfyousheng.nl.eu.org"
-  - name: "@DeltaKroneckerGithub_4580"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_4606"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_4618"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-  - name: "@DeltaKroneckerGithub_4627"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "Telegram_healer_config"
-    sni: "7X7o3VTq5z6ymu3Hv1fH-Op9BlT.hYa6LOSM6lZNOXHm6w3MK.woRKErS.DeV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/qL8YIeH28wNcXfNTPgLCwOhNFEr?ed=2560"
-  - name: "@DeltaKroneckerGithub_4653"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.pleadcourt.org"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.pleadcourt.org"
-  - name: "@DeltaKroneckerGithub_4657"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "Telegram_healer_config"
-    sni: "IJM8x9uGWPIQrMN-lo-S.ztl55lTKPUB38y36MCtgm.WOrKeRs.Dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/8g28WHK4FygFkZFa?ed=2560"
-  - name: "@DeltaKroneckerGithub_4680"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "Telegram_healer_config"
-    sni: "z6y-daOX0hyhDtdy.r720kPByx2l3i406.wOrKErS.DEv"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/UOAg5ubCk87OTaiIAxc0O?ed=2560"
-  - name: "@DeltaKroneckerGithub_4696"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q"
-    sni: "mfyousheng.nl.eu.org"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tjwsLhx0SFASG4l9FERJ1g"
-      headers:
-        Host: "mfyousheng.nl.eu.org"
-  - name: "@DeltaKroneckerGithub_4722"
+      path: "/tr/CRGrZTTVLMALBJkE4?ed=2560"
+  - name: "@DeltaKroneckerGithub_3930"
     type: trojan
     server: "127.0.0.1"
     port: 40443
@@ -809,7 +535,92 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.volumeroot.com"
-  - name: "@DeltaKroneckerGithub_4733"
+  - name: "@DeltaKroneckerGithub_3936"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "A4u^p(_UR*F6"
+    sni: "027.electrocellco-cf-027.workers.dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoidlhnMXN5OXFUSiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
+      headers:
+        Host: "027.electrocellco-cf-027.workers.dev"
+  - name: "@DeltaKroneckerGithub_3954"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+  - name: "@DeltaKroneckerGithub_3970"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q"
+    sni: "mfyousheng.nl.eu.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tjwsLhx0SFASG4l9FERJ1g"
+      headers:
+        Host: "mfyousheng.nl.eu.org"
+  - name: "@DeltaKroneckerGithub_3986"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.pleadcourt.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.pleadcourt.org"
+  - name: "@DeltaKroneckerGithub_4013"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.pleadcourt.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.pleadcourt.org"
+  - name: "@DeltaKroneckerGithub_4040"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "Telegram_healer_config"
+    sni: "uH-E03OjZGQ4EV7yy7b.6V46fk4wd2Y8l5p2XTD.WORkErS.Dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/iXLpDGAew6fKEQeQY84txlnklnRciaQ?ed=2560"
+  - name: "@DeltaKroneckerGithub_4051"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "Telegram_healer_config"
+    sni: "3OQxS5h6kCscecND.ZMh9KCGos2cq55uh6qDYaa938a5UgB.wOrkERS.dEV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/zMUJnc0O87fJR02xzGNed?ed=2560"
+  - name: "@DeltaKroneckerGithub_4078"
     type: trojan
     server: "127.0.0.1"
     port: 40443
@@ -822,92 +633,44 @@ proxies:
       path: "/eyJqdW5rIjoiYmx1NXI3dml6NjB3NW9nZyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwNC4yOC4yNTUuNzQiXX0=?ed=2560"
       headers:
         Host: "0xs3ced9.zzzqwdbwq.workers.dev"
-  - name: "@DeltaKroneckerGithub_4740"
+  - name: "@DeltaKroneckerGithub_4082"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "qILX2iK3__aseaW-T&Ab"
+    sni: "w2R2hnwMLm-p33C1-vNWD.HamEddSHaRaBI.WoRKers.Dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/7n9f0zTLXT2VkOLk1wfiJE6fB0?ed=2560"
+      headers:
+        Host: "w2r2hnwmlm-p33c1-vnwd.hameddsharabi.workers.dev"
+  - name: "@DeltaKroneckerGithub_4098"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "netra"
+    sni: "LAtE-FroST-9DA7.ShOamEni5.woRKers.Dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/WcvMTQZ5OFOfnBZDZ?ed=2560"
+  - name: "@DeltaKroneckerGithub_4115"
     type: trojan
     server: "127.0.0.1"
     port: 40443
     password: "humanity"
-    sni: "www.pleadcourt.org"
+    sni: "www.volumeroot.com"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
       path: "/assignment"
       headers:
-        Host: "www.pleadcourt.org"
-  - name: "@DeltaKroneckerGithub_4746"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.pleadcourt.org"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.pleadcourt.org"
-  - name: "@DeltaKroneckerGithub_4755"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "Telegram_healer_config"
-    sni: "30F67SBQ8jJWMT7gytfc14.0m68-qZ3hqYFNlaR6n3Iq.WorKerS.Dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/MBHDTiG2ZHfgBBj9iEpRFkse0tafJ?ed=2560"
-  - name: "@DeltaKroneckerGithub_4763"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "Telegram_healer_config"
-    sni: "3w2hk6Zj92orJcJedMI77HzC.Ny49NuZ6g33rYkoWaZQUNl-B9GuN5T.wOrkERs.DEv"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/owxywx7VjYMLyGu2JOQYjHwV67l?ed=2560"
-  - name: "@DeltaKroneckerGithub_4790"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-  - name: "@DeltaKroneckerGithub_4793"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "wWw.Volumeroot.cOm."
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.volumerOot.coM."
-  - name: "@DeltaKroneckerGithub_4805"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q"
-    sni: "127.0.0.1"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tjwsLhx0SFASG4l9FERJ1g"
-      headers:
-        Host: "mfyousheng.nl.eu.org"
-  - name: "@DeltaKroneckerGithub_4808"
+        Host: "www.volumeroot.com"
+  - name: "@DeltaKroneckerGithub_4142"
     type: trojan
     server: "127.0.0.1"
     port: 40443
@@ -918,72 +681,33 @@ proxies:
     network: ws
     ws-opts:
       path: "/tr?ed=2560"
-  - name: "@DeltaKroneckerGithub_4827"
+  - name: "@DeltaKroneckerGithub_4144"
     type: trojan
     server: "127.0.0.1"
     port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
+    password: "qILX2iK3__aseaW-T&Ab"
+    sni: "w2r2hnwMLm-P33c1-VnWD.hamEdDSHaRAbI.WorkERs.dev"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/assignment"
+      path: "/tr/y5rzBxAR3k9l3Tpr?ed=2560"
       headers:
-        Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_4846"
+        Host: "w2r2hnwmlm-p33c1-vnwd.hameddsharabi.workers.dev"
+  - name: "@DeltaKroneckerGithub_4157"
     type: trojan
     server: "127.0.0.1"
     port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
+    password: "qILX2iK3__aseaW-T&Ab"
+    sni: "w2r2HnWmLM-P33c1-vNwD.HamEdDshARAbI.WoRKers.dEv"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/assignment"
+      path: "/tr/cbzGtmVKNtY1Eno2LSq?ed=2560"
       headers:
-        Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_4850"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "wWw.Volumeroot.cOm."
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.volumerOot.coM."
-  - name: "@DeltaKroneckerGithub_4854"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_4891"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_4896"
+        Host: "w2r2hnwmlm-p33c1-vnwd.hameddsharabi.workers.dev"
+  - name: "@DeltaKroneckerGithub_4163"
     type: trojan
     server: "127.0.0.1"
     port: 40443
@@ -994,7 +718,109 @@ proxies:
     network: ws
     ws-opts:
       path: "/assignment"
-  - name: "@DeltaKroneckerGithub_4913"
+      headers:
+        Host: "www.pleadcourt.org"
+  - name: "@DeltaKroneckerGithub_4171"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "PFAiJ0ND-iqYF@NE"
+    sni: "cFOi-2fX16G3-8ry2KDxMcJ.wjESV2IlA3rXBuhpC2NsUgrAChGAWk.wOrKerS.DEv"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/g47sXSSa9D29SmBXchyV?ed=2560"
+  - name: "@DeltaKroneckerGithub_4211"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.volumeroot.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.volumeroot.com"
+  - name: "@DeltaKroneckerGithub_4215"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.pleadcourt.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.pleadcourt.org"
+  - name: "@DeltaKroneckerGithub_4220"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "@DeltaKroneckerGithub_4235"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.volumeroot.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.volumeroot.com"
+  - name: "@DeltaKroneckerGithub_4244"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "@DeltaKroneckerGithub_4255"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "-wb.oDfOeHifTGMVEf"
+    sni: "C0Yr9J09Y2L9g0TD8Wa5.2WHbRIRHJgsLM43zjCQEi.WOrKers.dEV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/0dFnQCEXVxSVDEE82uUI?ed=2560"
+  - name: "@DeltaKroneckerGithub_4269"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "8JHppSLSIBA0PK,Nx"
+    sni: "8tsmm6NspoCZ3HA9.KHr2DZ0OLa61yDPZE6ZVU7Jhcd4.WORKErS.dEV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/fsvjN2wOC2fuDFrdawJtWADScC?ed=2560"
+      headers:
+        Host: "8tsmm6nspocz3ha9.khr2dz0ola61ydpze6zvu7jhcd4.workers.dev"
+  - name: "@DeltaKroneckerGithub_4274"
     type: trojan
     server: "127.0.0.1"
     port: 40443
@@ -1007,7 +833,18 @@ proxies:
       path: "/195.123.218.174-443"
       headers:
         Host: "blackshadow.dpdns.org"
-  - name: "@DeltaKroneckerGithub_4921"
+  - name: "@DeltaKroneckerGithub_4311"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+  - name: "@DeltaKroneckerGithub_4347"
     type: trojan
     server: "127.0.0.1"
     port: 40443
@@ -1020,83 +857,40 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_4935"
+  - name: "@DeltaKroneckerGithub_4385"
     type: trojan
     server: "127.0.0.1"
     port: 40443
-    password: "A4u^p(_UR*F6"
-    sni: "027.electrocellco-cf-027.workers.dev"
+    password: "bd85f5fe32d9446a8b1f59e4f710455b"
+    sni: "BpB-PAnEL-62c3.mlM-eE9A3b83.wOrKErS.dev"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/eyJqdW5rIjoidlhnMXN5OXFUSiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
-      headers:
-        Host: "027.electrocellco-cf-027.workers.dev"
-  - name: "@DeltaKroneckerGithub_4992"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "LcICDcp!jD9TFV$NbH"
-    sni: "dl2uF-iVdeZILZ3E86rK18.Hhvt37tjm2XBOsQL5HXogN-Y.woRKERS.dEv"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/pg4wM48V9O859nmqsJg22EOFKN4S570y?ed=2560"
-      headers:
-        Host: "dl2uf-ivdezilz3e86rk18.hhvt37tjm2xbosql5hxogn-y.workers.dev"
-  - name: "@DeltaKroneckerGithub_5014"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "LcICDcp!jD9TFV$NbH"
-    sni: "Dl2Uf-IVdEzILz3e86Rk18.hhVT37TJm2xbOSql5hxOgN-Y.woRKers.DeV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/eEsrwCudYSP4q0SvRcN?ed=2560"
-      headers:
-        Host: "dl2uf-ivdezilz3e86rk18.hhvt37tjm2xbosql5hxogn-y.workers.dev"
-  - name: "@DeltaKroneckerGithub_5022"
+      path: "/eyJqdW5rIjoibkN2cER2SDZIUTkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6IiIsInBhbmVsSVBzIjoiWzJhMDI6ODk4OjE0Njo2NDo6XSJ9?ed=2560"
+  - name: "@DeltaKroneckerGithub_4387"
     type: trojan
     server: "127.0.0.1"
     port: 40443
     password: "Telegram_healer_config"
-    sni: "tO6r63-kkChIGHQM2.VxZ0dDUq7To7su0cdqf.wORKeRS.dEV"
+    sni: "6m1rGyIEclMRx9HeF1.Z6-0hlNUbJIBwZPa85.wOrKerS.DEV"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/tr/j6tUJYR3oc4EhmK7TiULZCYQO?ed=2560"
-  - name: "@DeltaKroneckerGithub_5050"
+      path: "/tr/GaQvfFwT5sWgVxHig8YaXjtiuQPZNI?ed=2560"
+  - name: "@DeltaKroneckerGithub_4392"
     type: trojan
     server: "127.0.0.1"
     port: 40443
-    password: "letiranbreath-x@^f"
-    sni: "0XS3Ced9.zZzqwdBWq.wOrKErS.DEv"
+    password: "bd85f5fe32d9446a8b1f59e4f710455b"
+    sni: "BpB-PAnEL-62c3.mlM-eE9A3b83.wOrKErS.dev"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/eyJqdW5rIjoiYmx1NXI3dml6NjB3NW9nZyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwNC4yOC4yNTUuNzQiXX0=?ed=2560"
-      headers:
-        Host: "0xs3ced9.zzzqwdbwq.workers.dev"
-  - name: "@DeltaKroneckerGithub_5062"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_5090"
+      path: "/eyJqdW5rIjoibkN2cER2SDZIUTkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6IiIsInBhbmVsSVBzIjoiWzJhMDI6ODk4OjE0Njo2NDo6XSJ9?ed=2560"
+  - name: "@DeltaKroneckerGithub_4408"
     type: trojan
     server: "127.0.0.1"
     port: 40443
@@ -1109,114 +903,7 @@ proxies:
       path: "/WangCai-8"
       headers:
         Host: "dimskiee.biz.id"
-  - name: "@DeltaKroneckerGithub_5111"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.pleadcourt.org"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.pleadcourt.org"
-  - name: "@DeltaKroneckerGithub_5121"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-  - name: "@DeltaKroneckerGithub_5147"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.pleadcourt.org"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.pleadcourt.org"
-  - name: "@DeltaKroneckerGithub_5150"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-  - name: "@DeltaKroneckerGithub_5168"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "Telegram_healer_config"
-    sni: "To6R63-kKChiGHqm2.vxz0Dduq7to7Su0CDQf.worKERs.DEV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/xwtrOUcg21SS0Ega?ed=2560"
-  - name: "@DeltaKroneckerGithub_5180"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "Telegram_healer_config"
-    sni: "uH-E03OjZGQ4EV7yy7b.6V46fk4wd2Y8l5p2XTD.WORkErS.Dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/iXLpDGAew6fKEQeQY84txlnklnRciaQ?ed=2560"
-  - name: "@DeltaKroneckerGithub_5191"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "5504eaa8-1395-402f-8e0e-75ecd762e627"
-    sni: "nat6.outsidemyheart.space"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/eriujtheriughwiue?ed=2560"
-      headers:
-        Host: "nat6.outsidemyheart.space"
-  - name: "@DeltaKroneckerGithub_5215"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "pjg&JybcgFsca,+gQMa"
-    sni: "022xW1dMCzG0c6165PCla6.TOMBorn69.woRKERS.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/9Krhh8DnN4WBkbQFAyN09f7V7ivKQ?ed=2560"
-  - name: "@DeltaKroneckerGithub_5218"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "PFAiJ0ND-iqYF@NE"
-    sni: "cfOI-2FX16g3-8RY2kDXmCj.WJeSV2iLa3rxbUHPc2nsUGRAcHgaWK.WorKerS.DEV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/0FBfx1aV3Ri9dlJaevEWV3sBuJnoqIS?ed=2560"
-      headers:
-        Host: "cfoi-2fx16g3-8ry2kdxmcj.wjesv2ila3rxbuhpc2nsugrachgawk.workers.dev"
-  - name: "@DeltaKroneckerGithub_5271"
+  - name: "@DeltaKroneckerGithub_4413"
     type: trojan
     server: "127.0.0.1"
     port: 40443
@@ -1229,68 +916,20 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_5292"
+  - name: "@DeltaKroneckerGithub_4418"
     type: trojan
     server: "127.0.0.1"
     port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
+    password: "0hbl*0RB4T,LSk;JK"
+    sni: "14SW2KRBEO0wv7GZ32H3BnJ.HalABiA061.workeRs.DEv"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/assignment"
-  - name: "@DeltaKroneckerGithub_5296"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
+      path: "/tr/d2y5re8Z9iqkUtWNtSR?ed=2560"
       headers:
-        Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_5308"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_5310"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "Telegram_healer_config"
-    sni: "30F67SBQ8jJWMT7gytfc14.0m68-qZ3hqYFNlaR6n3Iq.WorKerS.Dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/MBHDTiG2ZHfgBBj9iEpRFkse0tafJ?ed=2560"
-  - name: "@DeltaKroneckerGithub_5326"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "A4u^p(_UR*F6"
-    sni: "027.electrocellco-cf-027.workers.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/eyJqdW5rIjoidlhnMXN5OXFUSiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
-      headers:
-        Host: "027.electrocellco-cf-027.workers.dev"
-  - name: "@DeltaKroneckerGithub_5334"
+        Host: "14sw2krbeo0wv7gz32h3bnj.halabia061.workers.dev"
+  - name: "@DeltaKroneckerGithub_4427"
     type: trojan
     server: "127.0.0.1"
     port: 40443
@@ -1303,57 +942,7 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.pleadcourt.org"
-  - name: "@DeltaKroneckerGithub_5377"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.pleadcourt.org"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.pleadcourt.org"
-  - name: "@DeltaKroneckerGithub_5425"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_5429"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "netra"
-    sni: "LAtE-FroST-9DA7.ShOamEni5.woRKers.Dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/WcvMTQZ5OFOfnBZDZ?ed=2560"
-  - name: "@DeltaKroneckerGithub_5453"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "123444"
-    sni: "northrendserver.sherekontop.workers.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "northrendserver.sherekontop.workers.dev"
-  - name: "@DeltaKroneckerGithub_5478"
+  - name: "@DeltaKroneckerGithub_4444"
     type: trojan
     server: "127.0.0.1"
     port: 40443
@@ -1366,94 +955,7 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.volumeroot.com"
-  - name: "@DeltaKroneckerGithub_5506"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_5511"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "xhl549341"
-    sni: "tro.baiyi.cloudns.org"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "@DeltaKroneckerGithub_5563"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "letiranbreath-x@^f"
-    sni: "0XS3Ced9.zZzqwdBWq.wOrKErS.DEv"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/eyJqdW5rIjoiYmx1NXI3dml6NjB3NW9nZyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwNC4yOC4yNTUuNzQiXX0=?ed=2560"
-      headers:
-        Host: "0xs3ced9.zzzqwdbwq.workers.dev"
-  - name: "@DeltaKroneckerGithub_5567"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.pleadcourt.org"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.pleadcourt.org"
-  - name: "@DeltaKroneckerGithub_5579"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "Telegram_healer_config"
-    sni: "uH-E03OjZGQ4EV7yy7b.6V46fk4wd2Y8l5p2XTD.WORkErS.Dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/iXLpDGAew6fKEQeQY84txlnklnRciaQ?ed=2560"
-  - name: "@DeltaKroneckerGithub_5582"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "123456"
-    sni: "321dfbc6.uir-9i6.pages.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "321dfbc6.uir-9i6.pages.dev"
-  - name: "@DeltaKroneckerGithub_5599"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_5602"
+  - name: "@DeltaKroneckerGithub_4446"
     type: trojan
     server: "127.0.0.1"
     port: 40443
@@ -1466,170 +968,7 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.volumeroot.com"
-  - name: "@DeltaKroneckerGithub_5630"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_5689"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_5750"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "0b5fa773-6f37-4134-87d4-0c349742b6f6"
-    sni: "app-538961.user-y0o4gm.workers.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/cmh"
-  - name: "@DeltaKroneckerGithub_5770"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.pleadcourt.org"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.pleadcourt.org"
-  - name: "@DeltaKroneckerGithub_5779"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "Telegram_healer_config"
-    sni: "5Er0m2I2eNS2ULPg7Sjd45UGQs.87FCVt2K11501YnO2txm6yw-MiPJ2KR.worKERs.dEV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/VCf8OF27gyXfyS3GNQ1ejyY7sy4?ed=2560"
-  - name: "@DeltaKroneckerGithub_5811"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.volumeroot.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.volumeroot.com"
-  - name: "@DeltaKroneckerGithub_5820"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_5847"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.pleadcourt.org"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.pleadcourt.org"
-  - name: "@DeltaKroneckerGithub_5850"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.volumeroot.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.volumeroot.com"
-  - name: "@DeltaKroneckerGithub_5859"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q"
-    sni: "mfyousheng.nl.eu.org"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tjwsLhx0SFASG4l9FERJ1g"
-      headers:
-        Host: "mfyousheng.nl.eu.org"
-  - name: "@DeltaKroneckerGithub_5873"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "eabf1999fefbb7d2"
-    sni: "WaYSi.wAYsI6688.WOrkeRS.deV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/sMpzOZ0eWEt6jbZ1jjN3BaM7LLoQ"
-      headers:
-        Host: "waysi.waysi6688.workers.dev"
-  - name: "@DeltaKroneckerGithub_5898"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "uR0TSWA@N^%u,Bni"
-    sni: "rESTless-basE-fe24.aLiReZaHabibi20009.woRKErS.DEv"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/eyJqdW5rIjoiM2VVWXFtczhRUVN5SHpGMyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
-  - name: "@DeltaKroneckerGithub_5903"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.volumeroot.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.volumeroot.com"
-  - name: "@DeltaKroneckerGithub_5952"
+  - name: "@DeltaKroneckerGithub_4463"
     type: trojan
     server: "127.0.0.1"
     port: 40443
@@ -1642,31 +981,323 @@ proxies:
       path: "/tr/sMpzOZ0eWEt6jbZ1jjN3BaM7LLoQ"
       headers:
         Host: "waysi.waysi6688.workers.dev"
-  - name: "@DeltaKroneckerGithub_5963"
+  - name: "@DeltaKroneckerGithub_4488"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "@DeltaKroneckerGithub_4503"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.volumeroot.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.volumeroot.com"
+  - name: "@DeltaKroneckerGithub_4512"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "O5+31W&l1TnaLNaEfqur"
+    sni: "u3DANGs7bGo2yRJz4uhXMt3-M.e5Iq1Vr7gI52Ww7-83T0H6FUXI1D.WOrKerS.deV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/wITkfX2lvDk9IF41MvgctE8e7KWPbYpS?ed=2560"
+      headers:
+        Host: "u3dangs7bgo2yrjz4uhxmt3-m.e5iq1vr7gi52ww7-83t0h6fuxi1d.workers.dev"
+  - name: "@DeltaKroneckerGithub_4537"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "pjg&JybcgFsca,+gQMa"
+    sni: "022xW1dMCzG0c6165PCla6.TOMBorn69.woRKERS.dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/9Krhh8DnN4WBkbQFAyN09f7V7ivKQ?ed=2560"
+  - name: "@DeltaKroneckerGithub_4565"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "qILX2iK3__aseaW-T&Ab"
+    sni: "w2R2hNwMlm-p33c1-vnWd.HaMEddSHaraBI.WORkErs.DEv"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/NHAJosupmLZms2138Fih74D?ed=2560"
+      headers:
+        Host: "w2r2hnwmlm-p33c1-vnwd.hameddsharabi.workers.dev"
+  - name: "@DeltaKroneckerGithub_4577"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "@DeltaKroneckerGithub_4581"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "wWw.Volumeroot.cOm."
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.volumerOot.coM."
+  - name: "@DeltaKroneckerGithub_4600"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q"
+    sni: "mfyousheng.nl.eu.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tjwsLhx0SFASG4l9FERJ1g"
+  - name: "@DeltaKroneckerGithub_4607"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+  - name: "@DeltaKroneckerGithub_4617"
     type: trojan
     server: "127.0.0.1"
     port: 40443
     password: "Telegram_healer_config"
-    sni: "To6R63-kKChiGHqm2.vxz0Dduq7to7Su0CDQf.worKERs.DEV"
+    sni: "30F67SBQ8jJWMT7gytfc14.0m68-qZ3hqYFNlaR6n3Iq.WorKerS.Dev"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/tr/xwtrOUcg21SS0Ega?ed=2560"
-      headers:
-        Host: "to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev"
-  - name: "@DeltaKroneckerGithub_5978"
+      path: "/tr/MBHDTiG2ZHfgBBj9iEpRFkse0tafJ?ed=2560"
+  - name: "@DeltaKroneckerGithub_4704"
     type: trojan
     server: "127.0.0.1"
     port: 40443
-    password: "-wb.oDfOeHifTGMVEf"
-    sni: "C0Yr9J09Y2L9g0TD8Wa5.2WHbRIRHJgsLM43zjCQEi.WOrKers.dEV"
+    password: "humanity"
+    sni: "www.pleadcourt.org"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/tr/0dFnQCEXVxSVDEE82uUI?ed=2560"
-  - name: "@DeltaKroneckerGithub_6011"
+      path: "/assignment"
+      headers:
+        Host: "www.pleadcourt.org"
+  - name: "@DeltaKroneckerGithub_4725"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "bd85f5fe32d9446a8b1f59e4f710455b"
+    sni: "BpB-PAnEL-62c3.mlM-eE9A3b83.wOrKErS.dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoibkN2cER2SDZIUTkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6IiIsInBhbmVsSVBzIjoiWzJhMDI6ODk4OjE0Njo2NDo6XSJ9?ed=2560"
+  - name: "@DeltaKroneckerGithub_4731"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "@DeltaKroneckerGithub_4746"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "Telegram_healer_config"
+    sni: "6M1RGyIeClMRx9hef1.z6-0HlnubjIbWZpa85.wOrKerS.DEv"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/ox5zBiRQjs2Rscy0XwxXY2ZzE?ed=2560"
+  - name: "@DeltaKroneckerGithub_4762"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.trusteeforward.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.trusteeforward.com"
+  - name: "@DeltaKroneckerGithub_4780"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "5j3xqsajt1474jb3"
+    sni: "uwu.dianaw.cc.cd"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/@BlueKnight_net--@BlueKnight_net--@BlueKnight_net"
+      headers:
+        Host: "uwu.dianaw.cc.cd"
+  - name: "@DeltaKroneckerGithub_4799"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q"
+    sni: "mfyousheng.nl.eu.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tjwsLhx0SFASG4l9FERJ1g"
+      headers:
+        Host: "mfyousheng.nl.eu.org"
+  - name: "@DeltaKroneckerGithub_4811"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "@DeltaKroneckerGithub_4848"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.pleadcourt.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.pleadcourt.org"
+  - name: "@DeltaKroneckerGithub_4851"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "@DeltaKroneckerGithub_4861"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "19877587-ed94-4033-88cd-4ac50a5e8718"
+    sni: "dimskiee.biz.id"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/WangCai-8"
+  - name: "@DeltaKroneckerGithub_4877"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "@DeltaKroneckerGithub_4887"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "018b8e7b-7813-4dcb-84a5-3c98f1521e00"
+    sni: "id1.nathaya.web.id"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/trojan"
+  - name: "@DeltaKroneckerGithub_4901"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "bpb-trojan"
+    sni: "vless.herogoing.top"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr?ed=2560"
+  - name: "@DeltaKroneckerGithub_4940"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+  - name: "@DeltaKroneckerGithub_4958"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "U&RdRdcsoeB;VU9.IO"
+    sni: "Te096C8unFj1zOKTL5peU24bS.878nAMn3I0xJ17no6p3.wORkErS.Dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/oUxHeBhI2aoGvGd83MTCkEy2kmdXsBX0?ed=2560"
+  - name: "@DeltaKroneckerGithub_4969"
     type: trojan
     server: "127.0.0.1"
     port: 40443
@@ -1676,32 +1307,58 @@ proxies:
     udp: true
     network: ws
     ws-opts:
-      path: "/?ed=2560"
-  - name: "@DeltaKroneckerGithub_6023"
+      path: "/"
+  - name: "@DeltaKroneckerGithub_4979"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "@DeltaKroneckerGithub_4981"
     type: trojan
     server: "127.0.0.1"
     port: 40443
     password: "Telegram_healer_config"
-    sni: "30f67sBQ8jJwMt7GYtfc14.0M68-Qz3hqYfnLAR6n3Iq.wORkErs.dEv"
+    sni: "vRE6r9qrbQi0T25tg.SRtB0M3HDbWr2cjZ8fJuR.WoRKerS.DEv"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/tr/hYgAqUlh5GyczDyXP?ed"
-  - name: "@DeltaKroneckerGithub_6032"
+      path: "/tr/W3Ei3SdcW9sRVMLIbEd8sB1lm?ed=2560"
+  - name: "@DeltaKroneckerGithub_4985"
     type: trojan
     server: "127.0.0.1"
     port: 40443
-    password: "1710442808"
-    sni: "subb.nrshop198.workers.dev"
+    password: "humanity"
+    sni: "www.pleadcourt.org"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/"
+      path: "/assignment"
       headers:
-        Host: "subb.nrshop198.workers.dev"
-  - name: "@DeltaKroneckerGithub_6034"
+        Host: "www.pleadcourt.org"
+  - name: "@DeltaKroneckerGithub_4994"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "@DeltaKroneckerGithub_5024"
     type: trojan
     server: "127.0.0.1"
     port: 40443
@@ -1714,42 +1371,136 @@ proxies:
       path: "/tr/rpmeJRDCbzoeQHjtWQtucdXDWonXCG?ed=2560"
       headers:
         Host: "node-562276409-d1add2.subject88.workers.dev"
-  - name: "@DeltaKroneckerGithub_6041"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "19877587-ed94-4033-88cd-4ac50a5e8718"
-    sni: "dimskiee.biz.id"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/WangCai-8"
-  - name: "@DeltaKroneckerGithub_6048"
+  - name: "@DeltaKroneckerGithub_5031"
     type: trojan
     server: "127.0.0.1"
     port: 40443
     password: "humanity"
-    sni: "www.pleadcourt.org"
+    sni: "www.calmlunch.com"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
       path: "/assignment"
+  - name: "@DeltaKroneckerGithub_5045"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "-wb.oDfOeHifTGMVEf"
+    sni: "C0yR9j09Y2l9G0tD8wa5.2wHBRirhjGslM43zJCqEi.worKeRs.DEV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/JkwIXZZlza6sgoi9?ed=2560"
+  - name: "@DeltaKroneckerGithub_5061"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "qILX2iK3__aseaW-T&Ab"
+    sni: "W2r2hNwmlM-p33C1-vnWD.HameDDShaRAbi.woRkERs.dEv"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/g9c0KFW4z1OjXxYLXZ85Wo2OZG?ed=2560"
       headers:
-        Host: "www.pleadcourt.org"
-  - name: "@DeltaKroneckerGithub_6058"
+        Host: "w2r2hnwmlm-p33c1-vnwd.hameddsharabi.workers.dev"
+  - name: "@DeltaKroneckerGithub_5086"
     type: trojan
     server: "127.0.0.1"
     port: 40443
     password: "Telegram_healer_config"
-    sni: "VRE6R9qRbQI0t25TG.SRTB0M3hdbwr2cJZ8fjUr.WoRKeRS.dev"
+    sni: "3W2hk6ZJ92orjcjEdmI77hzC.Ny49nUZ6G33RYkoWAZquNl-b9GuN5T.WoRKERs.dEv"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/tr/bDodLFtTQwCZ6EX3ffMYJ06j9EjLse4d?ed=2560"
-  - name: "@DeltaKroneckerGithub_6087"
+      path: "/tr/e2X4F8y1t8YGOWfIV2ImzqxmdmGEpf?ed=2560"
+  - name: "@DeltaKroneckerGithub_5103"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "Telegram_healer_config"
+    sni: "6m1rGyIEclMRx9HeF1.Z6-0hlNUbJIBwZPa85.wOrKerS.DEV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/GaQvfFwT5sWgVxHig8YaXjtiuQPZNI?ed=2560"
+  - name: "@DeltaKroneckerGithub_5107"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.volumeroot.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.volumeroot.com"
+  - name: "@DeltaKroneckerGithub_5144"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "Telegram_healer_config"
+    sni: "bKtF381b04NcHTXkN8TidEzQgF.TCNTH9s31mg1j4TNxLAD62O1s2o.wOrKErS.DEV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/JIPAVWGHbaGJWIcEUAFGZIxrVCPW?ed=2560"
+      headers:
+        Host: "bktf381b04nchtxkn8tidezqgf.tcnth9s31mg1j4tnxlad62o1s2o.workers.dev"
+  - name: "@DeltaKroneckerGithub_5147"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "018b8e7b-7813-4dcb-84a5-3c98f1521e00"
+    sni: "id1.nathaya.web.id"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/trojan"
+  - name: "@DeltaKroneckerGithub_5155"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "xhl549341"
+    sni: "tro.baiyi.cloudns.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "@DeltaKroneckerGithub_5163"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.volumeroot.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.volumeroot.com"
+  - name: "@DeltaKroneckerGithub_5167"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.pleadcourt.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+  - name: "@DeltaKroneckerGithub_5175"
     type: trojan
     server: "127.0.0.1"
     port: 40443
@@ -1762,17 +1513,805 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.pleadcourt.org"
-  - name: "@DeltaKroneckerGithub_6099"
+  - name: "@DeltaKroneckerGithub_5192"
     type: trojan
     server: "127.0.0.1"
     port: 40443
-    password: "netra"
-    sni: "lATE-fROST-9DA7.ShOAmEni5.workErs.deV"
+    password: "humanity"
+    sni: "www.calmlunch.com"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/tr/8vQPIrFg42fBSCLIHOgLi?ed=2560"
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "@DeltaKroneckerGithub_5195"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "@DeltaKroneckerGithub_5209"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "@DeltaKroneckerGithub_5212"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "Telegram_healer_config"
+    sni: "5Er0m2i2eNS2uLpg7SJd45UGqS.87fcvT2k11501YnO2TXm6yw-miPJ2Kr.worKerS.deV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/5cJhuZZi5ZL6KKmZ5vKVeM?ed=2560"
+  - name: "@DeltaKroneckerGithub_5234"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "LcICDcp!jD9TFV$NbH"
+    sni: "Dl2Uf-IVdEzILz3e86Rk18.hhVT37TJm2xbOSql5hxOgN-Y.woRKers.DeV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/eEsrwCudYSP4q0SvRcN?ed=2560"
+      headers:
+        Host: "dl2uf-ivdezilz3e86rk18.hhvt37tjm2xbosql5hxogn-y.workers.dev"
+  - name: "@DeltaKroneckerGithub_5242"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.pleadcourt.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.pleadcourt.org"
+  - name: "@DeltaKroneckerGithub_5255"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.pleadcourt.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.pleadcourt.org"
+  - name: "@DeltaKroneckerGithub_5258"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "Telegram_healer_config"
+    sni: "cdtfrgmtcsbaarmz-9owpz7g4.f9w96pzky6un-covzx6b-hzlm80woj2.workers.dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/3F3fUAGJks9doKvjt8AREH4QR?ed=2560"
+  - name: "@DeltaKroneckerGithub_5270"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "Telegram_healer_config"
+    sni: "IJM8X9UgwPIQRmN-Lo-s.ZTl55ltkpuB38y36MCTGM.wOrKERs.deV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/MyONKU8UND5ZRBBUz6C?ed=2560"
+  - name: "@DeltaKroneckerGithub_5272"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.volumerOot.coM."
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.volumerOot.coM."
+  - name: "@DeltaKroneckerGithub_5276"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "Telegram_healer_config"
+    sni: "x8xus4x7utzmdozv2.bzuh25lzinnetwtocxyicx.workers.dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/nDuppKYyUqsEcG0rcQEg5sghG0?ed=2560"
+      headers:
+        Host: "x8xus4x7utzmdozv2.bzuh25lzinnetwtocxyicx.workers.dev"
+  - name: "@DeltaKroneckerGithub_5301"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.pleadcourt.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.pleadcourt.org"
+  - name: "@DeltaKroneckerGithub_5308"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "HutaoCloud"
+    sni: "185.220.238.77"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/api"
+  - name: "@DeltaKroneckerGithub_5351"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "Telegram_healer_config"
+    sni: "5Er0m2I2eNS2ULPg7Sjd45UGQs.87FCVt2K11501YnO2txm6yw-MiPJ2KR.worKERs.dEV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/VCf8OF27gyXfyS3GNQ1ejyY7sy4?ed=2560"
+  - name: "@DeltaKroneckerGithub_5366"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.pleadcourt.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.pleadcourt.org"
+  - name: "@DeltaKroneckerGithub_5369"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+  - name: "@DeltaKroneckerGithub_5375"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.pleadcourt.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.pleadcourt.org"
+  - name: "@DeltaKroneckerGithub_5378"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.pleadcourt.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.pleadcourt.org"
+  - name: "@DeltaKroneckerGithub_5384"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "@DeltaKroneckerGithub_5389"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.volumeroot.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.volumeroot.com"
+  - name: "@DeltaKroneckerGithub_5409"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "Telegram_healer_config"
+    sni: "bktF381B04NcHTXKN8TideZQGF.TcNtH9S31mG1j4TNxLAD62o1s2o.wOrKeRs.dEV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/iKNPzyUClLafWsNIz03UG9xb?ed=2560"
+  - name: "@DeltaKroneckerGithub_5412"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "av7fquzvuc99xcs9"
+    sni: "uwu.dianaw.cc.cd"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/@BlueKnight_net--@BlueKnight_net--@BlueKnight_net"
+      headers:
+        Host: "uwu.dianaw.cc.cd"
+  - name: "@DeltaKroneckerGithub_5436"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "Telegram_healer_config"
+    sni: "30f67sBQ8JjwmT7gYtfc14.0M68-QZ3HQYFnLAr6N3IQ.wOrkerS.deV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/ QiUREJ9PL5qHi1r4bkL9Rm8?ed=2560"
+      headers:
+        Host: "30f67sbq8jjwmt7gytfc14.0m68-qz3hqyfnlar6n3iq.workers.dev"
+  - name: "@DeltaKroneckerGithub_5440"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "018b8e7b-7813-4dcb-84a5-3c98f1521e00"
+    sni: "id1.nathaya.web.id"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/trojan"
+      headers:
+        Host: "id1.nathaya.web.id"
+  - name: "@DeltaKroneckerGithub_5444"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.pleadcourt.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.pleadcourt.org"
+  - name: "@DeltaKroneckerGithub_5455"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "LcICDcp!jD9TFV$NbH"
+    sni: "dl2uF-iVdeZILZ3E86rK18.Hhvt37tjm2XBOsQL5HXogN-Y.woRKERS.dEv"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/pg4wM48V9O859nmqsJg22EOFKN4S570y?ed=2560"
+  - name: "@DeltaKroneckerGithub_5471"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+  - name: "@DeltaKroneckerGithub_5521"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "@DeltaKroneckerGithub_5548"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "xhl549341"
+    sni: "tro.baiyi.cloudns.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "tro.baiyi.cloudns.org"
+  - name: "@DeltaKroneckerGithub_5571"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "wWw.Volumeroot.cOm."
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.volumerOot.coM."
+  - name: "@DeltaKroneckerGithub_5578"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "@DeltaKroneckerGithub_5607"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.pleadcourt.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.pleadcourt.org"
+  - name: "@DeltaKroneckerGithub_5610"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "@DeltaKroneckerGithub_5635"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "bd85f5fe32d9446a8b1f59e4f710455b"
+    sni: "BpB-PAnEL-62c3.mlM-eE9A3b83.wOrKErS.dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoibkN2cER2SDZIUTkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6IiIsInBhbmVsSVBzIjoiWzJhMDI6ODk4OjE0Njo2NDo6XSJ9?ed=2560"
+  - name: "@DeltaKroneckerGithub_5646"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "C910E5F2-A662-7CFB-B5A6-5D39DB212CBA"
+    sni: "muddy-frost-4e2d.vpnetwork3567.workers.dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/?--Telegram--Viturey--Telegram--Viturey--"
+      headers:
+        Host: "muddy-frost-4e2d.vpnetwork3567.workers.dev"
+  - name: "@DeltaKroneckerGithub_5657"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "pjg&JybcgFsca,+gQMa"
+    sni: "022XW1dmCZG0c6165pcLA6.tOMborn69.WoRKErs.Dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/4SzHKYN7XBvR1ddoFe2atydxL69?ed=2560"
+      headers:
+        Host: "022xw1dmczg0c6165pcla6.tomborn69.workers.dev"
+  - name: "@DeltaKroneckerGithub_5680"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "PFAiJ0ND-iqYF@NE"
+    sni: "CfOI-2FX16g3-8rY2kdXmCJ.WJeSv2ILA3rXbUhpC2NSugRAchGaWK.WOrkeRs.DEV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/6ybXlA0qpcK2A3ZKNv3ZBRXBvr?ed=2560"
+  - name: "@DeltaKroneckerGithub_5694"
+    type: trojan
+    server: "blackshadow.dpdns.org"
+    port: 443
+    password: "127.0.0.1"
+    sni: "blackshadow.dpdns.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "//195.123.218.174-443"
+      headers:
+        Host: "blackshadow.dpdns.org"
+  - name: "@DeltaKroneckerGithub_5711"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "Telegram_healer_config"
+    sni: "30f67sBQ8jJwMt7GYtfc14.0M68-Qz3hqYfnLAR6n3Iq.wORkErs.dEv"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/hYgAqUlh5GyczDyXP?ed"
+  - name: "@DeltaKroneckerGithub_5715"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "bd85f5fe32d9446a8b1f59e4f710455b"
+    sni: "BpB-PAnEL-62c3.mlM-eE9A3b83.wOrKErS.dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoibkN2cER2SDZIUTkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6IiIsInBhbmVsSVBzIjoiWzJhMDI6ODk4OjE0Njo2NDo6XSJ9?ed=2560"
+  - name: "@DeltaKroneckerGithub_5720"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.pleadcourt.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.pleadcourt.org"
+  - name: "@DeltaKroneckerGithub_5732"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "xhl549341"
+    sni: "tro.baiyi.cloudns.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "tro.baiyi.cloudns.org"
+  - name: "@DeltaKroneckerGithub_5755"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q"
+    sni: "mfyousheng.nl.eu.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tjwsLhx0SFASG4l9FERJ1g"
+      headers:
+        Host: "mfyousheng.nl.eu.org"
+  - name: "@DeltaKroneckerGithub_5768"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "Telegram_healer_config"
+    sni: "6m1rGyIEclMRx9HeF1.Z6-0hlNUbJIBwZPa85.wOrKerS.DEV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/GaQvfFwT5sWgVxHig8YaXjtiuQPZNI?ed=2560"
+  - name: "@DeltaKroneckerGithub_5797"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "Telegram_healer_config"
+    sni: "Z6Y-dAOx0HYhdTdy.R720KPbYX2L3i406.woRKers.DEV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/P9UvWEJwKNGrOjrb1ICnWGhH8iQGDcG?ed=2560"
+  - name: "@DeltaKroneckerGithub_5814"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "018b8e7b-7813-4dcb-84a5-3c98f1521e00"
+    sni: "id1.nathaya.web.id"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/trojan"
+      headers:
+        Host: "id1.nathaya.web.id"
+  - name: "@DeltaKroneckerGithub_5840"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "018b8e7b-7813-4dcb-84a5-3c98f1521e00"
+    sni: "id1.nathaya.web.id"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/trojan"
+  - name: "@DeltaKroneckerGithub_5852"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "trojan"
+    sni: "blackshadow.dpdns.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "//195.123.218.174-443"
+      headers:
+        Host: "blackshadow.dpdns.org"
+  - name: "@DeltaKroneckerGithub_5864"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "@DeltaKroneckerGithub_5867"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "2bcfbfba-b446-4ad5-93ad-72af9e008f61"
+    sni: "blackshadow.dpdns.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/195.123.218.174-443"
+  - name: "@DeltaKroneckerGithub_5889"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "-wb.oDfOeHifTGMVEf"
+    sni: "c0yR9J09Y2l9G0td8wA5.2wHbrirHJgSlM43zJcqeI.WoRkERS.dEv"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/DUxfWnCsYjSEOWSUGmnz?ed=2560"
+  - name: "@DeltaKroneckerGithub_5893"
+    type: trojan
+    server: "blackshadow.dpdns.org"
+    port: 443
+    password: "127.0.0.1"
+    sni: "blackshadow.dpdns.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "//195.123.218.174-443"
+      headers:
+        Host: "blackshadow.dpdns.org"
+  - name: "@DeltaKroneckerGithub_5924"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "@DeltaKroneckerGithub_5929"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "wWw.Volumeroot.cOm."
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.volumerOot.coM."
+  - name: "@DeltaKroneckerGithub_5945"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "@DeltaKroneckerGithub_5957"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.pleadcourt.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.pleadcourt.org"
+  - name: "@DeltaKroneckerGithub_5999"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "qILX2iK3__aseaW-T&Ab"
+    sni: "w2R2HNwMlm-p33c1-vNWD.HAmedDSHArAbI.wOrKeRS.dEV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/vGfnpVCeIs6s5BQltzw8qmTaA5n?ed=2560"
+      headers:
+        Host: "w2r2hnwmlm-p33c1-vnwd.hameddsharabi.workers.dev"
+  - name: "@DeltaKroneckerGithub_6007"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "0y7hid61k3k2vuy1"
+    sni: "uwu.dianaw.cc.cd"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/@BlueKnight_net--@BlueKnight_net--@BlueKnight_net"
+      headers:
+        Host: "uwu.dianaw.cc.cd"
+  - name: "@DeltaKroneckerGithub_6033"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "TsX0XJKMa2h$CbKr0k"
+    sni: "IDB8onmVBntUyt5T7T6cEjFW8VLRB.PAGES.DeV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/mPwnfIHtx0vldKy0A5AGJTZB"
+  - name: "@DeltaKroneckerGithub_6049"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "eabf1999fefbb7d2"
+    sni: "WaYSi.wAYsI6688.WOrkeRS.deV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/sMpzOZ0eWEt6jbZ1jjN3BaM7LLoQ"
+  - name: "@DeltaKroneckerGithub_6066"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "1710442808"
+    sni: "subb.nrshop198.workers.dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "subb.nrshop198.workers.dev"
+  - name: "@DeltaKroneckerGithub_6069"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "xhl549341"
+    sni: "tro.baiyi.cloudns.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+  - name: "@DeltaKroneckerGithub_6080"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "bd85f5fe32d9446a8b1f59e4f710455b"
+    sni: "BpB-PAnEL-62c3.mlM-eE9A3b83.wOrKErS.dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoibkN2cER2SDZIUTkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6IiIsInBhbmVsSVBzIjoiWzJhMDI6ODk4OjE0Njo2NDo6XSJ9?ed=2560"
+  - name: "@DeltaKroneckerGithub_6084"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "letiranbreath-x@^f"
+    sni: "0XS3Ced9.zZzqwdBWq.wOrKErS.DEv"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiYmx1NXI3dml6NjB3NW9nZyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwNC4yOC4yNTUuNzQiXX0=?ed=2560"
+      headers:
+        Host: "0xs3ced9.zzzqwdbwq.workers.dev"
+  - name: "@DeltaKroneckerGithub_6088"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "Telegram_healer_config"
+    sni: "bjsa2ygfitzjtho8ucze29xf2m2q9c.g3fiajpf0erm9k3x6ww-yegzl2.workers.dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/J6IJuAAWkqyiEt8UkeRnVdLlkLIGukLr?ed=2560"
   - name: "@DeltaKroneckerGithub_6116"
     type: trojan
     server: "127.0.0.1"
@@ -1786,373 +2325,7 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_6158"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "letiranbreath-x@^f"
-    sni: "0XS3Ced9.zZzqwdBWq.wOrKErS.DEv"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/eyJqdW5rIjoiYmx1NXI3dml6NjB3NW9nZyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwNC4yOC4yNTUuNzQiXX0=?ed=2560"
-      headers:
-        Host: "0xs3ced9.zzzqwdbwq.workers.dev"
-  - name: "@DeltaKroneckerGithub_6161"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.pleadcourt.org"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.pleadcourt.org"
-  - name: "@DeltaKroneckerGithub_6175"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_6217"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "5504eaa8-1395-402f-8e0e-75ecd762e627"
-    sni: "nat11.outsidemyheart.space"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/w4e5yh0p945y3?ed=2560"
-      headers:
-        Host: "nat11.outsidemyheart.space"
-  - name: "@DeltaKroneckerGithub_6219"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.volumerOot.coM."
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.volumerOot.coM."
-  - name: "@DeltaKroneckerGithub_6221"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.pleadcourt.org"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.pleadcourt.org"
-  - name: "@DeltaKroneckerGithub_6227"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "Telegram_healer_config"
-    sni: "30f67sBQ8JjwmT7gYtfc14.0M68-QZ3HQYFnLAr6N3IQ.wOrkerS.deV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/VKQiUREJ9PL5qHi1r4bkL9Rm8?ed=2560"
-  - name: "@DeltaKroneckerGithub_6287"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_6289"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.pleadcourt.org"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.pleadcourt.org"
-  - name: "@DeltaKroneckerGithub_6298"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_6315"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "PFAiJ0ND-iqYF@NE"
-    sni: "cfOI-2FX16g3-8RY2kDXmCj.WJeSV2iLa3rxbUHPc2nsUGRAcHgaWK.WorKerS.DEV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/0FBfx1aV3Ri9dlJaevEWV3sBuJnoqIS?ed=2560"
-  - name: "@DeltaKroneckerGithub_6324"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "Telegram_healer_config"
-    sni: "bjsa2ygfitzjtho8ucze29xf2m2q9c.g3fiajpf0erm9k3x6ww-yegzl2.workers.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/J6IJuAAWkqyiEt8UkeRnVdLlkLIGukLr?ed=2560"
-      headers:
-        Host: "bjsa2ygfitzjtho8ucze29xf2m2q9c.g3fiajpf0erm9k3x6ww-yegzl2.workers.dev"
-  - name: "@DeltaKroneckerGithub_6349"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "TsX0XJKMa2h$CbKr0k"
-    sni: "IDB8onmVBntUyt5T7T6cEjFW8VLRB.PAGES.DeV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/mPwnfIHtx0vldKy0A5AGJTZB"
-  - name: "@DeltaKroneckerGithub_6355"
-    type: trojan
-    server: "blackshadow.dpdns.org"
-    port: 443
-    password: "127.0.0.1"
-    sni: "blackshadow.dpdns.org"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "//195.123.218.174-443"
-      headers:
-        Host: "blackshadow.dpdns.org"
-  - name: "@DeltaKroneckerGithub_6357"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "U&RdRdcsoeB;VU9.IO"
-    sni: "Te096C8unFj1zOKTL5peU24bS.878nAMn3I0xJ17no6p3.wORkErS.Dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/oUxHeBhI2aoGvGd83MTCkEy2kmdXsBX0?ed=2560"
-  - name: "@DeltaKroneckerGithub_6361"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "bd85f5fe32d9446a8b1f59e4f710455b"
-    sni: "BpB-PAnEL-62c3.mlM-eE9A3b83.wOrKErS.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/eyJqdW5rIjoibkN2cER2SDZIUTkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6IiIsInBhbmVsSVBzIjoiWzJhMDI6ODk4OjE0Njo2NDo6XSJ9?ed=2560"
-  - name: "@DeltaKroneckerGithub_6369"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-  - name: "@DeltaKroneckerGithub_6380"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "Telegram_healer_config"
-    sni: "5Er0m2i2eNS2uLpg7SJd45UGqS.87fcvT2k11501YnO2TXm6yw-miPJ2Kr.worKerS.deV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/5cJhuZZi5ZL6KKmZ5vKVeM?ed=2560"
-  - name: "@DeltaKroneckerGithub_6383"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "8JHppSLSIBA0PK,Nx"
-    sni: "8tsmm6NspoCZ3HA9.KHr2DZ0OLa61yDPZE6ZVU7Jhcd4.WORKErS.dEV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/fsvjN2wOC2fuDFrdawJtWADScC?ed=2560"
-      headers:
-        Host: "8tsmm6nspocz3ha9.khr2dz0ola61ydpze6zvu7jhcd4.workers.dev"
-  - name: "@DeltaKroneckerGithub_6391"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "bd85f5fe32d9446a8b1f59e4f710455b"
-    sni: "BpB-PAnEL-62c3.mlM-eE9A3b83.wOrKErS.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/eyJqdW5rIjoibkN2cER2SDZIUTkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6IiIsInBhbmVsSVBzIjoiWzJhMDI6ODk4OjE0Njo2NDo6XSJ9?ed=2560"
-  - name: "@DeltaKroneckerGithub_6402"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "bd85f5fe32d9446a8b1f59e4f710455b"
-    sni: "BpB-PAnEL-62c3.mlM-eE9A3b83.wOrKErS.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/eyJqdW5rIjoibkN2cER2SDZIUTkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6IiIsInBhbmVsSVBzIjoiWzJhMDI6ODk4OjE0Njo2NDo6XSJ9?ed=2560"
-  - name: "@DeltaKroneckerGithub_6409"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "Telegram_healer_config"
-    sni: "bKtF381b04NcHTXkN8TidEzQgF.TCNTH9s31mg1j4TNxLAD62O1s2o.wOrKErS.DEV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/JIPAVWGHbaGJWIcEUAFGZIxrVCPW?ed=2560"
-      headers:
-        Host: "bktf381b04nchtxkn8tidezqgf.tcnth9s31mg1j4tnxlad62o1s2o.workers.dev"
-  - name: "@DeltaKroneckerGithub_6452"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "letiranbreath-x@^f"
-    sni: "0XS3Ced9.zZzqwdBWq.wOrKErS.DEv"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/eyJqdW5rIjoiYmx1NXI3dml6NjB3NW9nZyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwNC4yOC4yNTUuNzQiXX0=?ed=2560"
-      headers:
-        Host: "0xs3ced9.zzzqwdbwq.workers.dev"
-  - name: "@DeltaKroneckerGithub_6459"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "Telegram_healer_config"
-    sni: "X8xus4X7UTZMDozv2.bZuH25LZINNeTwTOcXYIcx.WORkERs.deV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/nDuppKYyUqsEcG0rcQEg5sghG0?ed=2560"
-  - name: "@DeltaKroneckerGithub_6462"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_6521"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "0b5fa773-6f37-4134-87d4-0c349742b6f6"
-    sni: "app-538961.user-y0o4gm.workers.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "@DeltaKroneckerGithub_6526"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.pleadcourt.org"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.pleadcourt.org"
-  - name: "@DeltaKroneckerGithub_6528"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "trojan"
-    sni: "longwanghen.pages.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "@DeltaKroneckerGithub_6547"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_6550"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.pleadcourt.org"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.pleadcourt.org"
-  - name: "@DeltaKroneckerGithub_6580"
+  - name: "@DeltaKroneckerGithub_6135"
     type: trojan
     server: "127.0.0.1"
     port: 40443
@@ -2165,125 +2338,18 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.volumeroot.com"
-  - name: "@DeltaKroneckerGithub_6607"
+  - name: "@DeltaKroneckerGithub_6145"
     type: trojan
     server: "127.0.0.1"
     port: 40443
-    password: "letiranbreath-x@^f"
-    sni: "0XS3Ced9.zZzqwdBWq.wOrKErS.DEv"
+    password: "Telegram_healer_config"
+    sni: "30F67SBQ8jJwmT7GyTFc14.0m68-QZ3hQyFnlar6N3IQ.WoRKErS.deV"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/eyJqdW5rIjoiYmx1NXI3dml6NjB3NW9nZyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwNC4yOC4yNTUuNzQiXX0=?ed=2560"
-      headers:
-        Host: "0xs3ced9.zzzqwdbwq.workers.dev"
-  - name: "@DeltaKroneckerGithub_6629"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "uR0TSWA@N^%u,Bni"
-    sni: "rESTless-basE-fe24.aLiReZaHabibi20009.woRKErS.DEv"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/eyJqdW5rIjoiM2VVWXFtczhRUVN5SHpGMyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
-  - name: "@DeltaKroneckerGithub_6632"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-  - name: "@DeltaKroneckerGithub_6636"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "TsX0XJKMa2h$CbKr0k"
-    sni: "iDB8onmvBnTuyt5T7T6CejfW8vlRb.PagES.DeV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/60XnEWrAQkStT4oTTwmkao9a4sc"
-      headers:
-        Host: "idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev"
-  - name: "@DeltaKroneckerGithub_6645"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.pleadcourt.org"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.pleadcourt.org"
-  - name: "@DeltaKroneckerGithub_6663"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-  - name: "@DeltaKroneckerGithub_6672"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_6684"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-  - name: "@DeltaKroneckerGithub_6700"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "netra"
-    sni: "LatE-fROSt-9da7.shoaMeNi5.woRkERs.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/RWyQSqDDvOL421WNrUZNhdX5N7uE4lS7?ed=2560"
-  - name: "@DeltaKroneckerGithub_6761"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "xhl549341"
-    sni: "tro.baiyi.cloudns.org"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-  - name: "@DeltaKroneckerGithub_6767"
+      path: "/tr/D0RNup7f2Tt0Tna3gVu5OvfMJYJjD?ed=2560"
+  - name: "@DeltaKroneckerGithub_6158"
     type: trojan
     server: "127.0.0.1"
     port: 40443
@@ -2294,46 +2360,20 @@ proxies:
     network: ws
     ws-opts:
       path: "/tr?ed=2560"
-  - name: "@DeltaKroneckerGithub_6770"
+  - name: "@DeltaKroneckerGithub_6173"
     type: trojan
     server: "127.0.0.1"
     port: 40443
-    password: "humanity"
-    sni: "www.volumeroot.com"
+    password: "A4u^p(_UR*F6"
+    sni: "027.electrocellco-cf-027.workers.dev"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/assignment"
+      path: "/eyJqdW5rIjoidlhnMXN5OXFUSiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
       headers:
-        Host: "www.volumeroot.com"
-  - name: "@DeltaKroneckerGithub_6781"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.volumeroot.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.volumeroot.com"
-  - name: "@DeltaKroneckerGithub_6795"
-    type: trojan
-    server: "127.0.0.1"
-    port: 40443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_6829"
+        Host: "027.electrocellco-cf-027.workers.dev"
+  - name: "@DeltaKroneckerGithub_6178"
     type: trojan
     server: "127.0.0.1"
     port: 40443
@@ -2346,18 +2386,33 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.pleadcourt.org"
-  - name: "@DeltaKroneckerGithub_6835"
+  - name: "@DeltaKroneckerGithub_6182"
     type: trojan
     server: "127.0.0.1"
     port: 40443
-    password: "-wb.oDfOeHifTGMVEf"
-    sni: "c0YR9J09y2l9G0Td8WA5.2whBRirhjgsLm43ZJcqei.WoRKers.DEv"
+    password: "humanity"
+    sni: "www.pleadcourt.org"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/tr/CRGrZTTVLMALBJkE4?ed=2560"
-  - name: "@DeltaKroneckerGithub_6861"
+      path: "/assignment"
+      headers:
+        Host: "www.pleadcourt.org"
+  - name: "@DeltaKroneckerGithub_6204"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q"
+    sni: "mfyousheng.nl.eu.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tjwsLhx0SFASG4l9FERJ1g"
+      headers:
+        Host: "mfyousheng.nl.eu.org"
+  - name: "@DeltaKroneckerGithub_6207"
     type: trojan
     server: "127.0.0.1"
     port: 40443
@@ -2370,7 +2425,120 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_6867"
+  - name: "@DeltaKroneckerGithub_6216"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.pleadcourt.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.pleadcourt.org"
+  - name: "@DeltaKroneckerGithub_6240"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "qILX2iK3__aseaW-T&Ab"
+    sni: "w2r2HnwmlM-p33C1-VNWD.hameDdsHArAbi.WORKeRS.DeV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/FVJIcgx19eT85MvOT?ed=2560"
+      headers:
+        Host: "w2r2hnwmlm-p33c1-vnwd.hameddsharabi.workers.dev"
+  - name: "@DeltaKroneckerGithub_6243"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "pjg&JybcgFsca,+gQMa"
+    sni: "022XW1dMCzG0C6165Pcla6.tOMBORn69.WOrkErS.dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/TXGYPKAmg2T9agqYRDFm?ed=2560"
+      headers:
+        Host: "022xw1dmczg0c6165pcla6.tomborn69.workers.dev"
+  - name: "@DeltaKroneckerGithub_6257"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "PFAiJ0ND-iqYF@NE"
+    sni: "cfOI-2FX16g3-8RY2kDXmCj.WJeSV2iLa3rxbUHPc2nsUGRAcHgaWK.WorKerS.DEV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/0FBfx1aV3Ri9dlJaevEWV3sBuJnoqIS?ed=2560"
+      headers:
+        Host: "cfoi-2fx16g3-8ry2kdxmcj.wjesv2ila3rxbuhpc2nsugrachgawk.workers.dev"
+  - name: "@DeltaKroneckerGithub_6264"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "7990f64c-d3d0-4af6-a78b-fc690e5803ad"
+    sni: "NODE-562276409-d1aDd2.sUbjECT88.WOrkErs.deV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/rpmeJRDCbzoeQHjtWQtucdXDWonXCG?ed=2560"
+      headers:
+        Host: "node-562276409-d1add2.subject88.workers.dev"
+  - name: "@DeltaKroneckerGithub_6291"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "jJT7gd5O9vwJzL6RiXpxxXIAL"
+    sni: "127.0.0.1"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/f2fc2a1f"
+      headers:
+        Host: "hl-freedom-2.undef.network"
+  - name: "@DeltaKroneckerGithub_6313"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+  - name: "@DeltaKroneckerGithub_6317"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "Telegram_healer_config"
+    sni: "6m1rGyIEclMRx9HeF1.Z6-0hlNUbJIBwZPa85.wOrKerS.DEV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/GaQvfFwT5sWgVxHig8YaXjtiuQPZNI?ed=2560"
+  - name: "@DeltaKroneckerGithub_6330"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "wWw.Volumeroot.cOm."
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.volumerOot.coM."
+  - name: "@DeltaKroneckerGithub_6352"
     type: trojan
     server: "127.0.0.1"
     port: 40443
@@ -2383,41 +2551,407 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_6877"
+  - name: "@DeltaKroneckerGithub_6364"
     type: trojan
     server: "127.0.0.1"
     port: 40443
-    password: "Telegram_healer_config"
-    sni: "tO6R63-kkCHIgHQM2.vXZ0dDUq7to7SU0cdQF.wOrKERS.Dev"
+    password: "netra"
+    sni: "LatE-fROSt-9da7.shoaMeNi5.woRkERs.dev"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/tr/yqf0HmXRcvB67eWDKZARhVo4Ts4?ed=2560"
-  - name: "@DeltaKroneckerGithub_6924"
+      path: "/tr/RWyQSqDDvOL421WNrUZNhdX5N7uE4lS7?ed=2560"
+  - name: "@DeltaKroneckerGithub_6369"
     type: trojan
     server: "127.0.0.1"
     port: 40443
-    password: "xhl549341"
-    sni: "tro.baiyi.cloudns.org"
+    password: "pjg&JybcgFsca,+gQMa"
+    sni: "022XW1DMCzG0c6165Pcla6.toMBoRn69.woRKeRs.DEV"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/?ed=2560"
+      path: "/tr/4jPX74py1Uh20tnk6uozVTHIZXVMMP?ed=2560"
       headers:
-        Host: "tro.baiyi.cloudns.org"
-  - name: "@DeltaKroneckerGithub_6931"
+        Host: "022xw1dmczg0c6165pcla6.tomborn69.workers.dev"
+  - name: "@DeltaKroneckerGithub_6380"
     type: trojan
     server: "127.0.0.1"
     port: 40443
     password: "Telegram_healer_config"
-    sni: "BjSa2yGFITzjtHo8ucZe29xf2m2q9C.G3FIAJpF0Erm9k3x6WW-YeGzl2.workeRs.dEV"
+    sni: "z6y-daOX0hyhDtdy.r720kPByx2l3i406.wOrKErS.DEv"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/tr/J6IJuAAWkqyiEt8UkeRnVdLlkLIGukLr?ed=2560"
+      path: "/tr/UOAg5ubCk87OTaiIAxc0O?ed=2560"
+  - name: "@DeltaKroneckerGithub_6390"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "wWw.Volumeroot.cOm."
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.volumerOot.coM."
+  - name: "@DeltaKroneckerGithub_6394"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "qILX2iK3__aseaW-T&Ab"
+    sni: "w2r2hnWMlm-p33C1-vnwD.hAmeddShaRaBi.woRKERs.dEV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/0Sq0tZyUsefaPiWgSQWmWgKie?ed=2560"
+      headers:
+        Host: "w2r2hnwmlm-p33c1-vnwd.hameddsharabi.workers.dev"
+  - name: "@DeltaKroneckerGithub_6428"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+  - name: "@DeltaKroneckerGithub_6443"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "netra"
+    sni: "lATE-fROST-9DA7.ShOAmEni5.workErs.deV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/8vQPIrFg42fBSCLIHOgLi?ed=2560"
+  - name: "@DeltaKroneckerGithub_6451"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "Telegram_healer_config"
+    sni: "IJM8x9uGWPIQrMN-lo-S.ztl55lTKPUB38y36MCtgm.WOrKeRs.Dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/8g28WHK4FygFkZFa?ed=2560"
+  - name: "@DeltaKroneckerGithub_6471"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.pleadcourt.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.pleadcourt.org"
+  - name: "@DeltaKroneckerGithub_6480"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.pleadcourt.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.pleadcourt.org"
+  - name: "@DeltaKroneckerGithub_6508"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "7990f64c-d3d0-4af6-a78b-fc690e5803ad"
+    sni: "NODE-562276409-d1aDd2.sUbjECT88.WOrkErs.deV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/rpmeJRDCbzoeQHjtWQtucdXDWonXCG?ed=2560"
+      headers:
+        Host: "node-562276409-d1add2.subject88.workers.dev"
+  - name: "@DeltaKroneckerGithub_6518"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "letiranbreath-x@^f"
+    sni: "0XS3Ced9.zZzqwdBWq.wOrKErS.DEv"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiYmx1NXI3dml6NjB3NW9nZyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwNC4yOC4yNTUuNzQiXX0=?ed=2560"
+      headers:
+        Host: "0xs3ced9.zzzqwdbwq.workers.dev"
+  - name: "@DeltaKroneckerGithub_6564"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "qILX2iK3__aseaW-T&Ab"
+    sni: "W2r2hNwMlm-p33c1-vNWD.hAmedDShARabi.worKeRS.dEv"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/8OdIu4tsaOhnxhxi7?ed=2560"
+      headers:
+        Host: "w2r2hnwmlm-p33c1-vnwd.hameddsharabi.workers.dev"
+  - name: "@DeltaKroneckerGithub_6571"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "@DeltaKroneckerGithub_6575"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "@DeltaKroneckerGithub_6577"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "@DeltaKroneckerGithub_6589"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "2bcfbfba-b446-4ad5-93ad-72af9e008f61"
+    sni: "blackshadow.dpdns.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/195.123.218.174-443"
+      headers:
+        Host: "blackshadow.dpdns.org"
+  - name: "@DeltaKroneckerGithub_6623"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "wWw.Volumeroot.cOm."
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.volumerOot.coM."
+  - name: "@DeltaKroneckerGithub_6652"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "qILX2iK3__aseaW-T&Ab"
+    sni: "w2r2hnWmLM-P33c1-vnWD.hAMEDDShARAbi.wORKERS.dEv"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/ZFEeID9CJuDOo1G4L7aAUrhon4H8Bqsr?ed=2560"
+      headers:
+        Host: "w2r2hnwmlm-p33c1-vnwd.hameddsharabi.workers.dev"
+  - name: "@DeltaKroneckerGithub_6676"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.pleadcourt.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.pleadcourt.org"
+  - name: "@DeltaKroneckerGithub_6700"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.pleadcourt.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.pleadcourt.org"
+  - name: "@DeltaKroneckerGithub_6707"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "PFAiJ0ND-iqYF@NE"
+    sni: "Cfoi-2FX16G3-8Ry2KdXmCJ.WjESV2ILa3rxBUHpc2NsUGRaChgaWk.WOrkeRS.dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/KURFCgLPt17jn2XBc1a8Mfx?ed=2560"
+  - name: "@DeltaKroneckerGithub_6715"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "018b8e7b-7813-4dcb-84a5-3c98f1521e00"
+    sni: "id1.nathaya.web.id"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/trojan"
+  - name: "@DeltaKroneckerGithub_6724"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "@DeltaKroneckerGithub_6738"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "bpb-trojan"
+    sni: "6982410.xyz"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr"
+  - name: "@DeltaKroneckerGithub_6741"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "EPI4SnpMUxd6L-I.B9"
+    sni: "lHNs3ww2-CXQ-Gj1vvOBkEPIg4noPkc.hqu4v38Hi9iFtcp6mZfMX-3bmx.WoRKeRS.dEV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/bZQmUGcGvss6BIiQhIPr003mzA?ed=2560"
+  - name: "@DeltaKroneckerGithub_6757"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+  - name: "@DeltaKroneckerGithub_6762"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "trojan"
+    sni: "longwanghen.pages.dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "@DeltaKroneckerGithub_6767"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "letiranbreath-x@^f"
+    sni: "0XS3Ced9.zZzqwdBWq.wOrKErS.DEv"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiYmx1NXI3dml6NjB3NW9nZyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwNC4yOC4yNTUuNzQiXX0=?ed=2560"
+      headers:
+        Host: "0xs3ced9.zzzqwdbwq.workers.dev"
+  - name: "@DeltaKroneckerGithub_6791"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+  - name: "@DeltaKroneckerGithub_6818"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "bpb-trojan"
+    sni: "vless.herogoing.top"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr?ed=2560"
+  - name: "@DeltaKroneckerGithub_6820"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+  - name: "@DeltaKroneckerGithub_6823"
+    type: trojan
+    server: "127.0.0.1"
+    port: 40443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
 
 proxy-groups:
   - name: "PROXY"
@@ -2434,200 +2968,242 @@ proxy-groups:
     tolerance: 30
     lazy: true
     proxies:
-      - "@DeltaKroneckerGithub_3647"
-      - "@DeltaKroneckerGithub_3672"
-      - "@DeltaKroneckerGithub_3696"
-      - "@DeltaKroneckerGithub_3704"
-      - "@DeltaKroneckerGithub_3710"
-      - "@DeltaKroneckerGithub_3716"
-      - "@DeltaKroneckerGithub_3718"
-      - "@DeltaKroneckerGithub_3750"
+      - "@DeltaKroneckerGithub_3446"
+      - "@DeltaKroneckerGithub_3456"
+      - "@DeltaKroneckerGithub_3459"
+      - "@DeltaKroneckerGithub_3484"
+      - "@DeltaKroneckerGithub_3497"
+      - "@DeltaKroneckerGithub_3507"
+      - "@DeltaKroneckerGithub_3511"
+      - "@DeltaKroneckerGithub_3519"
+      - "@DeltaKroneckerGithub_3542"
+      - "@DeltaKroneckerGithub_3589"
+      - "@DeltaKroneckerGithub_3598"
+      - "@DeltaKroneckerGithub_3600"
+      - "@DeltaKroneckerGithub_3606"
+      - "@DeltaKroneckerGithub_3608"
+      - "@DeltaKroneckerGithub_3623"
+      - "@DeltaKroneckerGithub_3641"
+      - "@DeltaKroneckerGithub_3646"
+      - "@DeltaKroneckerGithub_3654"
+      - "@DeltaKroneckerGithub_3671"
+      - "@DeltaKroneckerGithub_3698"
+      - "@DeltaKroneckerGithub_3742"
+      - "@DeltaKroneckerGithub_3761"
       - "@DeltaKroneckerGithub_3770"
-      - "@DeltaKroneckerGithub_3772"
       - "@DeltaKroneckerGithub_3778"
-      - "@DeltaKroneckerGithub_3806"
-      - "@DeltaKroneckerGithub_3811"
-      - "@DeltaKroneckerGithub_3819"
-      - "@DeltaKroneckerGithub_3832"
+      - "@DeltaKroneckerGithub_3782"
+      - "@DeltaKroneckerGithub_3790"
+      - "@DeltaKroneckerGithub_3794"
+      - "@DeltaKroneckerGithub_3800"
+      - "@DeltaKroneckerGithub_3812"
       - "@DeltaKroneckerGithub_3835"
-      - "@DeltaKroneckerGithub_3853"
-      - "@DeltaKroneckerGithub_3876"
-      - "@DeltaKroneckerGithub_3888"
+      - "@DeltaKroneckerGithub_3842"
+      - "@DeltaKroneckerGithub_3848"
+      - "@DeltaKroneckerGithub_3852"
+      - "@DeltaKroneckerGithub_3860"
+      - "@DeltaKroneckerGithub_3892"
+      - "@DeltaKroneckerGithub_3897"
       - "@DeltaKroneckerGithub_3913"
-      - "@DeltaKroneckerGithub_3915"
-      - "@DeltaKroneckerGithub_3955"
-      - "@DeltaKroneckerGithub_3977"
-      - "@DeltaKroneckerGithub_3994"
-      - "@DeltaKroneckerGithub_4005"
-      - "@DeltaKroneckerGithub_4039"
-      - "@DeltaKroneckerGithub_4060"
-      - "@DeltaKroneckerGithub_4077"
-      - "@DeltaKroneckerGithub_4081"
-      - "@DeltaKroneckerGithub_4113"
-      - "@DeltaKroneckerGithub_4127"
-      - "@DeltaKroneckerGithub_4151"
-      - "@DeltaKroneckerGithub_4156"
-      - "@DeltaKroneckerGithub_4202"
-      - "@DeltaKroneckerGithub_4208"
-      - "@DeltaKroneckerGithub_4221"
-      - "@DeltaKroneckerGithub_4261"
-      - "@DeltaKroneckerGithub_4290"
-      - "@DeltaKroneckerGithub_4298"
-      - "@DeltaKroneckerGithub_4302"
-      - "@DeltaKroneckerGithub_4349"
-      - "@DeltaKroneckerGithub_4391"
-      - "@DeltaKroneckerGithub_4396"
-      - "@DeltaKroneckerGithub_4423"
-      - "@DeltaKroneckerGithub_4429"
-      - "@DeltaKroneckerGithub_4432"
-      - "@DeltaKroneckerGithub_4468"
-      - "@DeltaKroneckerGithub_4499"
-      - "@DeltaKroneckerGithub_4504"
-      - "@DeltaKroneckerGithub_4516"
-      - "@DeltaKroneckerGithub_4530"
-      - "@DeltaKroneckerGithub_4532"
-      - "@DeltaKroneckerGithub_4568"
-      - "@DeltaKroneckerGithub_4570"
-      - "@DeltaKroneckerGithub_4580"
-      - "@DeltaKroneckerGithub_4606"
-      - "@DeltaKroneckerGithub_4618"
-      - "@DeltaKroneckerGithub_4627"
-      - "@DeltaKroneckerGithub_4653"
-      - "@DeltaKroneckerGithub_4657"
-      - "@DeltaKroneckerGithub_4680"
-      - "@DeltaKroneckerGithub_4696"
-      - "@DeltaKroneckerGithub_4722"
-      - "@DeltaKroneckerGithub_4733"
-      - "@DeltaKroneckerGithub_4740"
+      - "@DeltaKroneckerGithub_3926"
+      - "@DeltaKroneckerGithub_3930"
+      - "@DeltaKroneckerGithub_3936"
+      - "@DeltaKroneckerGithub_3954"
+      - "@DeltaKroneckerGithub_3970"
+      - "@DeltaKroneckerGithub_3986"
+      - "@DeltaKroneckerGithub_4013"
+      - "@DeltaKroneckerGithub_4040"
+      - "@DeltaKroneckerGithub_4051"
+      - "@DeltaKroneckerGithub_4078"
+      - "@DeltaKroneckerGithub_4082"
+      - "@DeltaKroneckerGithub_4098"
+      - "@DeltaKroneckerGithub_4115"
+      - "@DeltaKroneckerGithub_4142"
+      - "@DeltaKroneckerGithub_4144"
+      - "@DeltaKroneckerGithub_4157"
+      - "@DeltaKroneckerGithub_4163"
+      - "@DeltaKroneckerGithub_4171"
+      - "@DeltaKroneckerGithub_4211"
+      - "@DeltaKroneckerGithub_4215"
+      - "@DeltaKroneckerGithub_4220"
+      - "@DeltaKroneckerGithub_4235"
+      - "@DeltaKroneckerGithub_4244"
+      - "@DeltaKroneckerGithub_4255"
+      - "@DeltaKroneckerGithub_4269"
+      - "@DeltaKroneckerGithub_4274"
+      - "@DeltaKroneckerGithub_4311"
+      - "@DeltaKroneckerGithub_4347"
+      - "@DeltaKroneckerGithub_4385"
+      - "@DeltaKroneckerGithub_4387"
+      - "@DeltaKroneckerGithub_4392"
+      - "@DeltaKroneckerGithub_4408"
+      - "@DeltaKroneckerGithub_4413"
+      - "@DeltaKroneckerGithub_4418"
+      - "@DeltaKroneckerGithub_4427"
+      - "@DeltaKroneckerGithub_4444"
+      - "@DeltaKroneckerGithub_4446"
+      - "@DeltaKroneckerGithub_4463"
+      - "@DeltaKroneckerGithub_4488"
+      - "@DeltaKroneckerGithub_4503"
+      - "@DeltaKroneckerGithub_4512"
+      - "@DeltaKroneckerGithub_4537"
+      - "@DeltaKroneckerGithub_4565"
+      - "@DeltaKroneckerGithub_4577"
+      - "@DeltaKroneckerGithub_4581"
+      - "@DeltaKroneckerGithub_4600"
+      - "@DeltaKroneckerGithub_4607"
+      - "@DeltaKroneckerGithub_4617"
+      - "@DeltaKroneckerGithub_4704"
+      - "@DeltaKroneckerGithub_4725"
+      - "@DeltaKroneckerGithub_4731"
       - "@DeltaKroneckerGithub_4746"
-      - "@DeltaKroneckerGithub_4755"
-      - "@DeltaKroneckerGithub_4763"
-      - "@DeltaKroneckerGithub_4790"
-      - "@DeltaKroneckerGithub_4793"
-      - "@DeltaKroneckerGithub_4805"
-      - "@DeltaKroneckerGithub_4808"
-      - "@DeltaKroneckerGithub_4827"
-      - "@DeltaKroneckerGithub_4846"
-      - "@DeltaKroneckerGithub_4850"
-      - "@DeltaKroneckerGithub_4854"
-      - "@DeltaKroneckerGithub_4891"
-      - "@DeltaKroneckerGithub_4896"
-      - "@DeltaKroneckerGithub_4913"
-      - "@DeltaKroneckerGithub_4921"
-      - "@DeltaKroneckerGithub_4935"
-      - "@DeltaKroneckerGithub_4992"
-      - "@DeltaKroneckerGithub_5014"
-      - "@DeltaKroneckerGithub_5022"
-      - "@DeltaKroneckerGithub_5050"
-      - "@DeltaKroneckerGithub_5062"
-      - "@DeltaKroneckerGithub_5090"
-      - "@DeltaKroneckerGithub_5111"
-      - "@DeltaKroneckerGithub_5121"
+      - "@DeltaKroneckerGithub_4762"
+      - "@DeltaKroneckerGithub_4780"
+      - "@DeltaKroneckerGithub_4799"
+      - "@DeltaKroneckerGithub_4811"
+      - "@DeltaKroneckerGithub_4848"
+      - "@DeltaKroneckerGithub_4851"
+      - "@DeltaKroneckerGithub_4861"
+      - "@DeltaKroneckerGithub_4877"
+      - "@DeltaKroneckerGithub_4887"
+      - "@DeltaKroneckerGithub_4901"
+      - "@DeltaKroneckerGithub_4940"
+      - "@DeltaKroneckerGithub_4958"
+      - "@DeltaKroneckerGithub_4969"
+      - "@DeltaKroneckerGithub_4979"
+      - "@DeltaKroneckerGithub_4981"
+      - "@DeltaKroneckerGithub_4985"
+      - "@DeltaKroneckerGithub_4994"
+      - "@DeltaKroneckerGithub_5024"
+      - "@DeltaKroneckerGithub_5031"
+      - "@DeltaKroneckerGithub_5045"
+      - "@DeltaKroneckerGithub_5061"
+      - "@DeltaKroneckerGithub_5086"
+      - "@DeltaKroneckerGithub_5103"
+      - "@DeltaKroneckerGithub_5107"
+      - "@DeltaKroneckerGithub_5144"
       - "@DeltaKroneckerGithub_5147"
-      - "@DeltaKroneckerGithub_5150"
-      - "@DeltaKroneckerGithub_5168"
-      - "@DeltaKroneckerGithub_5180"
-      - "@DeltaKroneckerGithub_5191"
-      - "@DeltaKroneckerGithub_5215"
-      - "@DeltaKroneckerGithub_5218"
-      - "@DeltaKroneckerGithub_5271"
-      - "@DeltaKroneckerGithub_5292"
-      - "@DeltaKroneckerGithub_5296"
+      - "@DeltaKroneckerGithub_5155"
+      - "@DeltaKroneckerGithub_5163"
+      - "@DeltaKroneckerGithub_5167"
+      - "@DeltaKroneckerGithub_5175"
+      - "@DeltaKroneckerGithub_5192"
+      - "@DeltaKroneckerGithub_5195"
+      - "@DeltaKroneckerGithub_5209"
+      - "@DeltaKroneckerGithub_5212"
+      - "@DeltaKroneckerGithub_5234"
+      - "@DeltaKroneckerGithub_5242"
+      - "@DeltaKroneckerGithub_5255"
+      - "@DeltaKroneckerGithub_5258"
+      - "@DeltaKroneckerGithub_5270"
+      - "@DeltaKroneckerGithub_5272"
+      - "@DeltaKroneckerGithub_5276"
+      - "@DeltaKroneckerGithub_5301"
       - "@DeltaKroneckerGithub_5308"
-      - "@DeltaKroneckerGithub_5310"
-      - "@DeltaKroneckerGithub_5326"
-      - "@DeltaKroneckerGithub_5334"
-      - "@DeltaKroneckerGithub_5377"
-      - "@DeltaKroneckerGithub_5425"
-      - "@DeltaKroneckerGithub_5429"
-      - "@DeltaKroneckerGithub_5453"
-      - "@DeltaKroneckerGithub_5478"
-      - "@DeltaKroneckerGithub_5506"
-      - "@DeltaKroneckerGithub_5511"
-      - "@DeltaKroneckerGithub_5563"
-      - "@DeltaKroneckerGithub_5567"
-      - "@DeltaKroneckerGithub_5579"
-      - "@DeltaKroneckerGithub_5582"
-      - "@DeltaKroneckerGithub_5599"
-      - "@DeltaKroneckerGithub_5602"
-      - "@DeltaKroneckerGithub_5630"
-      - "@DeltaKroneckerGithub_5689"
-      - "@DeltaKroneckerGithub_5750"
-      - "@DeltaKroneckerGithub_5770"
-      - "@DeltaKroneckerGithub_5779"
-      - "@DeltaKroneckerGithub_5811"
-      - "@DeltaKroneckerGithub_5820"
-      - "@DeltaKroneckerGithub_5847"
-      - "@DeltaKroneckerGithub_5850"
-      - "@DeltaKroneckerGithub_5859"
-      - "@DeltaKroneckerGithub_5873"
-      - "@DeltaKroneckerGithub_5898"
-      - "@DeltaKroneckerGithub_5903"
-      - "@DeltaKroneckerGithub_5952"
-      - "@DeltaKroneckerGithub_5963"
-      - "@DeltaKroneckerGithub_5978"
-      - "@DeltaKroneckerGithub_6011"
-      - "@DeltaKroneckerGithub_6023"
-      - "@DeltaKroneckerGithub_6032"
-      - "@DeltaKroneckerGithub_6034"
-      - "@DeltaKroneckerGithub_6041"
-      - "@DeltaKroneckerGithub_6048"
-      - "@DeltaKroneckerGithub_6058"
-      - "@DeltaKroneckerGithub_6087"
-      - "@DeltaKroneckerGithub_6099"
+      - "@DeltaKroneckerGithub_5351"
+      - "@DeltaKroneckerGithub_5366"
+      - "@DeltaKroneckerGithub_5369"
+      - "@DeltaKroneckerGithub_5375"
+      - "@DeltaKroneckerGithub_5378"
+      - "@DeltaKroneckerGithub_5384"
+      - "@DeltaKroneckerGithub_5389"
+      - "@DeltaKroneckerGithub_5409"
+      - "@DeltaKroneckerGithub_5412"
+      - "@DeltaKroneckerGithub_5436"
+      - "@DeltaKroneckerGithub_5440"
+      - "@DeltaKroneckerGithub_5444"
+      - "@DeltaKroneckerGithub_5455"
+      - "@DeltaKroneckerGithub_5471"
+      - "@DeltaKroneckerGithub_5521"
+      - "@DeltaKroneckerGithub_5548"
+      - "@DeltaKroneckerGithub_5571"
+      - "@DeltaKroneckerGithub_5578"
+      - "@DeltaKroneckerGithub_5607"
+      - "@DeltaKroneckerGithub_5610"
+      - "@DeltaKroneckerGithub_5635"
+      - "@DeltaKroneckerGithub_5646"
+      - "@DeltaKroneckerGithub_5657"
+      - "@DeltaKroneckerGithub_5680"
+      - "@DeltaKroneckerGithub_5694"
+      - "@DeltaKroneckerGithub_5711"
+      - "@DeltaKroneckerGithub_5715"
+      - "@DeltaKroneckerGithub_5720"
+      - "@DeltaKroneckerGithub_5732"
+      - "@DeltaKroneckerGithub_5755"
+      - "@DeltaKroneckerGithub_5768"
+      - "@DeltaKroneckerGithub_5797"
+      - "@DeltaKroneckerGithub_5814"
+      - "@DeltaKroneckerGithub_5840"
+      - "@DeltaKroneckerGithub_5852"
+      - "@DeltaKroneckerGithub_5864"
+      - "@DeltaKroneckerGithub_5867"
+      - "@DeltaKroneckerGithub_5889"
+      - "@DeltaKroneckerGithub_5893"
+      - "@DeltaKroneckerGithub_5924"
+      - "@DeltaKroneckerGithub_5929"
+      - "@DeltaKroneckerGithub_5945"
+      - "@DeltaKroneckerGithub_5957"
+      - "@DeltaKroneckerGithub_5999"
+      - "@DeltaKroneckerGithub_6007"
+      - "@DeltaKroneckerGithub_6033"
+      - "@DeltaKroneckerGithub_6049"
+      - "@DeltaKroneckerGithub_6066"
+      - "@DeltaKroneckerGithub_6069"
+      - "@DeltaKroneckerGithub_6080"
+      - "@DeltaKroneckerGithub_6084"
+      - "@DeltaKroneckerGithub_6088"
       - "@DeltaKroneckerGithub_6116"
+      - "@DeltaKroneckerGithub_6135"
+      - "@DeltaKroneckerGithub_6145"
       - "@DeltaKroneckerGithub_6158"
-      - "@DeltaKroneckerGithub_6161"
-      - "@DeltaKroneckerGithub_6175"
-      - "@DeltaKroneckerGithub_6217"
-      - "@DeltaKroneckerGithub_6219"
-      - "@DeltaKroneckerGithub_6221"
-      - "@DeltaKroneckerGithub_6227"
-      - "@DeltaKroneckerGithub_6287"
-      - "@DeltaKroneckerGithub_6289"
-      - "@DeltaKroneckerGithub_6298"
-      - "@DeltaKroneckerGithub_6315"
-      - "@DeltaKroneckerGithub_6324"
-      - "@DeltaKroneckerGithub_6349"
-      - "@DeltaKroneckerGithub_6355"
-      - "@DeltaKroneckerGithub_6357"
-      - "@DeltaKroneckerGithub_6361"
+      - "@DeltaKroneckerGithub_6173"
+      - "@DeltaKroneckerGithub_6178"
+      - "@DeltaKroneckerGithub_6182"
+      - "@DeltaKroneckerGithub_6204"
+      - "@DeltaKroneckerGithub_6207"
+      - "@DeltaKroneckerGithub_6216"
+      - "@DeltaKroneckerGithub_6240"
+      - "@DeltaKroneckerGithub_6243"
+      - "@DeltaKroneckerGithub_6257"
+      - "@DeltaKroneckerGithub_6264"
+      - "@DeltaKroneckerGithub_6291"
+      - "@DeltaKroneckerGithub_6313"
+      - "@DeltaKroneckerGithub_6317"
+      - "@DeltaKroneckerGithub_6330"
+      - "@DeltaKroneckerGithub_6352"
+      - "@DeltaKroneckerGithub_6364"
       - "@DeltaKroneckerGithub_6369"
       - "@DeltaKroneckerGithub_6380"
-      - "@DeltaKroneckerGithub_6383"
-      - "@DeltaKroneckerGithub_6391"
-      - "@DeltaKroneckerGithub_6402"
-      - "@DeltaKroneckerGithub_6409"
-      - "@DeltaKroneckerGithub_6452"
-      - "@DeltaKroneckerGithub_6459"
-      - "@DeltaKroneckerGithub_6462"
-      - "@DeltaKroneckerGithub_6521"
-      - "@DeltaKroneckerGithub_6526"
-      - "@DeltaKroneckerGithub_6528"
-      - "@DeltaKroneckerGithub_6547"
-      - "@DeltaKroneckerGithub_6550"
-      - "@DeltaKroneckerGithub_6580"
-      - "@DeltaKroneckerGithub_6607"
-      - "@DeltaKroneckerGithub_6629"
-      - "@DeltaKroneckerGithub_6632"
-      - "@DeltaKroneckerGithub_6636"
-      - "@DeltaKroneckerGithub_6645"
-      - "@DeltaKroneckerGithub_6663"
-      - "@DeltaKroneckerGithub_6672"
-      - "@DeltaKroneckerGithub_6684"
+      - "@DeltaKroneckerGithub_6390"
+      - "@DeltaKroneckerGithub_6394"
+      - "@DeltaKroneckerGithub_6428"
+      - "@DeltaKroneckerGithub_6443"
+      - "@DeltaKroneckerGithub_6451"
+      - "@DeltaKroneckerGithub_6471"
+      - "@DeltaKroneckerGithub_6480"
+      - "@DeltaKroneckerGithub_6508"
+      - "@DeltaKroneckerGithub_6518"
+      - "@DeltaKroneckerGithub_6564"
+      - "@DeltaKroneckerGithub_6571"
+      - "@DeltaKroneckerGithub_6575"
+      - "@DeltaKroneckerGithub_6577"
+      - "@DeltaKroneckerGithub_6589"
+      - "@DeltaKroneckerGithub_6623"
+      - "@DeltaKroneckerGithub_6652"
+      - "@DeltaKroneckerGithub_6676"
       - "@DeltaKroneckerGithub_6700"
-      - "@DeltaKroneckerGithub_6761"
+      - "@DeltaKroneckerGithub_6707"
+      - "@DeltaKroneckerGithub_6715"
+      - "@DeltaKroneckerGithub_6724"
+      - "@DeltaKroneckerGithub_6738"
+      - "@DeltaKroneckerGithub_6741"
+      - "@DeltaKroneckerGithub_6757"
+      - "@DeltaKroneckerGithub_6762"
       - "@DeltaKroneckerGithub_6767"
-      - "@DeltaKroneckerGithub_6770"
-      - "@DeltaKroneckerGithub_6781"
-      - "@DeltaKroneckerGithub_6795"
-      - "@DeltaKroneckerGithub_6829"
-      - "@DeltaKroneckerGithub_6835"
-      - "@DeltaKroneckerGithub_6861"
-      - "@DeltaKroneckerGithub_6867"
-      - "@DeltaKroneckerGithub_6877"
-      - "@DeltaKroneckerGithub_6924"
-      - "@DeltaKroneckerGithub_6931"
+      - "@DeltaKroneckerGithub_6791"
+      - "@DeltaKroneckerGithub_6818"
+      - "@DeltaKroneckerGithub_6820"
+      - "@DeltaKroneckerGithub_6823"
 
 
   - name: "Load Balance"
@@ -2636,200 +3212,242 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "@DeltaKroneckerGithub_3647"
-      - "@DeltaKroneckerGithub_3672"
-      - "@DeltaKroneckerGithub_3696"
-      - "@DeltaKroneckerGithub_3704"
-      - "@DeltaKroneckerGithub_3710"
-      - "@DeltaKroneckerGithub_3716"
-      - "@DeltaKroneckerGithub_3718"
-      - "@DeltaKroneckerGithub_3750"
+      - "@DeltaKroneckerGithub_3446"
+      - "@DeltaKroneckerGithub_3456"
+      - "@DeltaKroneckerGithub_3459"
+      - "@DeltaKroneckerGithub_3484"
+      - "@DeltaKroneckerGithub_3497"
+      - "@DeltaKroneckerGithub_3507"
+      - "@DeltaKroneckerGithub_3511"
+      - "@DeltaKroneckerGithub_3519"
+      - "@DeltaKroneckerGithub_3542"
+      - "@DeltaKroneckerGithub_3589"
+      - "@DeltaKroneckerGithub_3598"
+      - "@DeltaKroneckerGithub_3600"
+      - "@DeltaKroneckerGithub_3606"
+      - "@DeltaKroneckerGithub_3608"
+      - "@DeltaKroneckerGithub_3623"
+      - "@DeltaKroneckerGithub_3641"
+      - "@DeltaKroneckerGithub_3646"
+      - "@DeltaKroneckerGithub_3654"
+      - "@DeltaKroneckerGithub_3671"
+      - "@DeltaKroneckerGithub_3698"
+      - "@DeltaKroneckerGithub_3742"
+      - "@DeltaKroneckerGithub_3761"
       - "@DeltaKroneckerGithub_3770"
-      - "@DeltaKroneckerGithub_3772"
       - "@DeltaKroneckerGithub_3778"
-      - "@DeltaKroneckerGithub_3806"
-      - "@DeltaKroneckerGithub_3811"
-      - "@DeltaKroneckerGithub_3819"
-      - "@DeltaKroneckerGithub_3832"
+      - "@DeltaKroneckerGithub_3782"
+      - "@DeltaKroneckerGithub_3790"
+      - "@DeltaKroneckerGithub_3794"
+      - "@DeltaKroneckerGithub_3800"
+      - "@DeltaKroneckerGithub_3812"
       - "@DeltaKroneckerGithub_3835"
-      - "@DeltaKroneckerGithub_3853"
-      - "@DeltaKroneckerGithub_3876"
-      - "@DeltaKroneckerGithub_3888"
+      - "@DeltaKroneckerGithub_3842"
+      - "@DeltaKroneckerGithub_3848"
+      - "@DeltaKroneckerGithub_3852"
+      - "@DeltaKroneckerGithub_3860"
+      - "@DeltaKroneckerGithub_3892"
+      - "@DeltaKroneckerGithub_3897"
       - "@DeltaKroneckerGithub_3913"
-      - "@DeltaKroneckerGithub_3915"
-      - "@DeltaKroneckerGithub_3955"
-      - "@DeltaKroneckerGithub_3977"
-      - "@DeltaKroneckerGithub_3994"
-      - "@DeltaKroneckerGithub_4005"
-      - "@DeltaKroneckerGithub_4039"
-      - "@DeltaKroneckerGithub_4060"
-      - "@DeltaKroneckerGithub_4077"
-      - "@DeltaKroneckerGithub_4081"
-      - "@DeltaKroneckerGithub_4113"
-      - "@DeltaKroneckerGithub_4127"
-      - "@DeltaKroneckerGithub_4151"
-      - "@DeltaKroneckerGithub_4156"
-      - "@DeltaKroneckerGithub_4202"
-      - "@DeltaKroneckerGithub_4208"
-      - "@DeltaKroneckerGithub_4221"
-      - "@DeltaKroneckerGithub_4261"
-      - "@DeltaKroneckerGithub_4290"
-      - "@DeltaKroneckerGithub_4298"
-      - "@DeltaKroneckerGithub_4302"
-      - "@DeltaKroneckerGithub_4349"
-      - "@DeltaKroneckerGithub_4391"
-      - "@DeltaKroneckerGithub_4396"
-      - "@DeltaKroneckerGithub_4423"
-      - "@DeltaKroneckerGithub_4429"
-      - "@DeltaKroneckerGithub_4432"
-      - "@DeltaKroneckerGithub_4468"
-      - "@DeltaKroneckerGithub_4499"
-      - "@DeltaKroneckerGithub_4504"
-      - "@DeltaKroneckerGithub_4516"
-      - "@DeltaKroneckerGithub_4530"
-      - "@DeltaKroneckerGithub_4532"
-      - "@DeltaKroneckerGithub_4568"
-      - "@DeltaKroneckerGithub_4570"
-      - "@DeltaKroneckerGithub_4580"
-      - "@DeltaKroneckerGithub_4606"
-      - "@DeltaKroneckerGithub_4618"
-      - "@DeltaKroneckerGithub_4627"
-      - "@DeltaKroneckerGithub_4653"
-      - "@DeltaKroneckerGithub_4657"
-      - "@DeltaKroneckerGithub_4680"
-      - "@DeltaKroneckerGithub_4696"
-      - "@DeltaKroneckerGithub_4722"
-      - "@DeltaKroneckerGithub_4733"
-      - "@DeltaKroneckerGithub_4740"
+      - "@DeltaKroneckerGithub_3926"
+      - "@DeltaKroneckerGithub_3930"
+      - "@DeltaKroneckerGithub_3936"
+      - "@DeltaKroneckerGithub_3954"
+      - "@DeltaKroneckerGithub_3970"
+      - "@DeltaKroneckerGithub_3986"
+      - "@DeltaKroneckerGithub_4013"
+      - "@DeltaKroneckerGithub_4040"
+      - "@DeltaKroneckerGithub_4051"
+      - "@DeltaKroneckerGithub_4078"
+      - "@DeltaKroneckerGithub_4082"
+      - "@DeltaKroneckerGithub_4098"
+      - "@DeltaKroneckerGithub_4115"
+      - "@DeltaKroneckerGithub_4142"
+      - "@DeltaKroneckerGithub_4144"
+      - "@DeltaKroneckerGithub_4157"
+      - "@DeltaKroneckerGithub_4163"
+      - "@DeltaKroneckerGithub_4171"
+      - "@DeltaKroneckerGithub_4211"
+      - "@DeltaKroneckerGithub_4215"
+      - "@DeltaKroneckerGithub_4220"
+      - "@DeltaKroneckerGithub_4235"
+      - "@DeltaKroneckerGithub_4244"
+      - "@DeltaKroneckerGithub_4255"
+      - "@DeltaKroneckerGithub_4269"
+      - "@DeltaKroneckerGithub_4274"
+      - "@DeltaKroneckerGithub_4311"
+      - "@DeltaKroneckerGithub_4347"
+      - "@DeltaKroneckerGithub_4385"
+      - "@DeltaKroneckerGithub_4387"
+      - "@DeltaKroneckerGithub_4392"
+      - "@DeltaKroneckerGithub_4408"
+      - "@DeltaKroneckerGithub_4413"
+      - "@DeltaKroneckerGithub_4418"
+      - "@DeltaKroneckerGithub_4427"
+      - "@DeltaKroneckerGithub_4444"
+      - "@DeltaKroneckerGithub_4446"
+      - "@DeltaKroneckerGithub_4463"
+      - "@DeltaKroneckerGithub_4488"
+      - "@DeltaKroneckerGithub_4503"
+      - "@DeltaKroneckerGithub_4512"
+      - "@DeltaKroneckerGithub_4537"
+      - "@DeltaKroneckerGithub_4565"
+      - "@DeltaKroneckerGithub_4577"
+      - "@DeltaKroneckerGithub_4581"
+      - "@DeltaKroneckerGithub_4600"
+      - "@DeltaKroneckerGithub_4607"
+      - "@DeltaKroneckerGithub_4617"
+      - "@DeltaKroneckerGithub_4704"
+      - "@DeltaKroneckerGithub_4725"
+      - "@DeltaKroneckerGithub_4731"
       - "@DeltaKroneckerGithub_4746"
-      - "@DeltaKroneckerGithub_4755"
-      - "@DeltaKroneckerGithub_4763"
-      - "@DeltaKroneckerGithub_4790"
-      - "@DeltaKroneckerGithub_4793"
-      - "@DeltaKroneckerGithub_4805"
-      - "@DeltaKroneckerGithub_4808"
-      - "@DeltaKroneckerGithub_4827"
-      - "@DeltaKroneckerGithub_4846"
-      - "@DeltaKroneckerGithub_4850"
-      - "@DeltaKroneckerGithub_4854"
-      - "@DeltaKroneckerGithub_4891"
-      - "@DeltaKroneckerGithub_4896"
-      - "@DeltaKroneckerGithub_4913"
-      - "@DeltaKroneckerGithub_4921"
-      - "@DeltaKroneckerGithub_4935"
-      - "@DeltaKroneckerGithub_4992"
-      - "@DeltaKroneckerGithub_5014"
-      - "@DeltaKroneckerGithub_5022"
-      - "@DeltaKroneckerGithub_5050"
-      - "@DeltaKroneckerGithub_5062"
-      - "@DeltaKroneckerGithub_5090"
-      - "@DeltaKroneckerGithub_5111"
-      - "@DeltaKroneckerGithub_5121"
+      - "@DeltaKroneckerGithub_4762"
+      - "@DeltaKroneckerGithub_4780"
+      - "@DeltaKroneckerGithub_4799"
+      - "@DeltaKroneckerGithub_4811"
+      - "@DeltaKroneckerGithub_4848"
+      - "@DeltaKroneckerGithub_4851"
+      - "@DeltaKroneckerGithub_4861"
+      - "@DeltaKroneckerGithub_4877"
+      - "@DeltaKroneckerGithub_4887"
+      - "@DeltaKroneckerGithub_4901"
+      - "@DeltaKroneckerGithub_4940"
+      - "@DeltaKroneckerGithub_4958"
+      - "@DeltaKroneckerGithub_4969"
+      - "@DeltaKroneckerGithub_4979"
+      - "@DeltaKroneckerGithub_4981"
+      - "@DeltaKroneckerGithub_4985"
+      - "@DeltaKroneckerGithub_4994"
+      - "@DeltaKroneckerGithub_5024"
+      - "@DeltaKroneckerGithub_5031"
+      - "@DeltaKroneckerGithub_5045"
+      - "@DeltaKroneckerGithub_5061"
+      - "@DeltaKroneckerGithub_5086"
+      - "@DeltaKroneckerGithub_5103"
+      - "@DeltaKroneckerGithub_5107"
+      - "@DeltaKroneckerGithub_5144"
       - "@DeltaKroneckerGithub_5147"
-      - "@DeltaKroneckerGithub_5150"
-      - "@DeltaKroneckerGithub_5168"
-      - "@DeltaKroneckerGithub_5180"
-      - "@DeltaKroneckerGithub_5191"
-      - "@DeltaKroneckerGithub_5215"
-      - "@DeltaKroneckerGithub_5218"
-      - "@DeltaKroneckerGithub_5271"
-      - "@DeltaKroneckerGithub_5292"
-      - "@DeltaKroneckerGithub_5296"
+      - "@DeltaKroneckerGithub_5155"
+      - "@DeltaKroneckerGithub_5163"
+      - "@DeltaKroneckerGithub_5167"
+      - "@DeltaKroneckerGithub_5175"
+      - "@DeltaKroneckerGithub_5192"
+      - "@DeltaKroneckerGithub_5195"
+      - "@DeltaKroneckerGithub_5209"
+      - "@DeltaKroneckerGithub_5212"
+      - "@DeltaKroneckerGithub_5234"
+      - "@DeltaKroneckerGithub_5242"
+      - "@DeltaKroneckerGithub_5255"
+      - "@DeltaKroneckerGithub_5258"
+      - "@DeltaKroneckerGithub_5270"
+      - "@DeltaKroneckerGithub_5272"
+      - "@DeltaKroneckerGithub_5276"
+      - "@DeltaKroneckerGithub_5301"
       - "@DeltaKroneckerGithub_5308"
-      - "@DeltaKroneckerGithub_5310"
-      - "@DeltaKroneckerGithub_5326"
-      - "@DeltaKroneckerGithub_5334"
-      - "@DeltaKroneckerGithub_5377"
-      - "@DeltaKroneckerGithub_5425"
-      - "@DeltaKroneckerGithub_5429"
-      - "@DeltaKroneckerGithub_5453"
-      - "@DeltaKroneckerGithub_5478"
-      - "@DeltaKroneckerGithub_5506"
-      - "@DeltaKroneckerGithub_5511"
-      - "@DeltaKroneckerGithub_5563"
-      - "@DeltaKroneckerGithub_5567"
-      - "@DeltaKroneckerGithub_5579"
-      - "@DeltaKroneckerGithub_5582"
-      - "@DeltaKroneckerGithub_5599"
-      - "@DeltaKroneckerGithub_5602"
-      - "@DeltaKroneckerGithub_5630"
-      - "@DeltaKroneckerGithub_5689"
-      - "@DeltaKroneckerGithub_5750"
-      - "@DeltaKroneckerGithub_5770"
-      - "@DeltaKroneckerGithub_5779"
-      - "@DeltaKroneckerGithub_5811"
-      - "@DeltaKroneckerGithub_5820"
-      - "@DeltaKroneckerGithub_5847"
-      - "@DeltaKroneckerGithub_5850"
-      - "@DeltaKroneckerGithub_5859"
-      - "@DeltaKroneckerGithub_5873"
-      - "@DeltaKroneckerGithub_5898"
-      - "@DeltaKroneckerGithub_5903"
-      - "@DeltaKroneckerGithub_5952"
-      - "@DeltaKroneckerGithub_5963"
-      - "@DeltaKroneckerGithub_5978"
-      - "@DeltaKroneckerGithub_6011"
-      - "@DeltaKroneckerGithub_6023"
-      - "@DeltaKroneckerGithub_6032"
-      - "@DeltaKroneckerGithub_6034"
-      - "@DeltaKroneckerGithub_6041"
-      - "@DeltaKroneckerGithub_6048"
-      - "@DeltaKroneckerGithub_6058"
-      - "@DeltaKroneckerGithub_6087"
-      - "@DeltaKroneckerGithub_6099"
+      - "@DeltaKroneckerGithub_5351"
+      - "@DeltaKroneckerGithub_5366"
+      - "@DeltaKroneckerGithub_5369"
+      - "@DeltaKroneckerGithub_5375"
+      - "@DeltaKroneckerGithub_5378"
+      - "@DeltaKroneckerGithub_5384"
+      - "@DeltaKroneckerGithub_5389"
+      - "@DeltaKroneckerGithub_5409"
+      - "@DeltaKroneckerGithub_5412"
+      - "@DeltaKroneckerGithub_5436"
+      - "@DeltaKroneckerGithub_5440"
+      - "@DeltaKroneckerGithub_5444"
+      - "@DeltaKroneckerGithub_5455"
+      - "@DeltaKroneckerGithub_5471"
+      - "@DeltaKroneckerGithub_5521"
+      - "@DeltaKroneckerGithub_5548"
+      - "@DeltaKroneckerGithub_5571"
+      - "@DeltaKroneckerGithub_5578"
+      - "@DeltaKroneckerGithub_5607"
+      - "@DeltaKroneckerGithub_5610"
+      - "@DeltaKroneckerGithub_5635"
+      - "@DeltaKroneckerGithub_5646"
+      - "@DeltaKroneckerGithub_5657"
+      - "@DeltaKroneckerGithub_5680"
+      - "@DeltaKroneckerGithub_5694"
+      - "@DeltaKroneckerGithub_5711"
+      - "@DeltaKroneckerGithub_5715"
+      - "@DeltaKroneckerGithub_5720"
+      - "@DeltaKroneckerGithub_5732"
+      - "@DeltaKroneckerGithub_5755"
+      - "@DeltaKroneckerGithub_5768"
+      - "@DeltaKroneckerGithub_5797"
+      - "@DeltaKroneckerGithub_5814"
+      - "@DeltaKroneckerGithub_5840"
+      - "@DeltaKroneckerGithub_5852"
+      - "@DeltaKroneckerGithub_5864"
+      - "@DeltaKroneckerGithub_5867"
+      - "@DeltaKroneckerGithub_5889"
+      - "@DeltaKroneckerGithub_5893"
+      - "@DeltaKroneckerGithub_5924"
+      - "@DeltaKroneckerGithub_5929"
+      - "@DeltaKroneckerGithub_5945"
+      - "@DeltaKroneckerGithub_5957"
+      - "@DeltaKroneckerGithub_5999"
+      - "@DeltaKroneckerGithub_6007"
+      - "@DeltaKroneckerGithub_6033"
+      - "@DeltaKroneckerGithub_6049"
+      - "@DeltaKroneckerGithub_6066"
+      - "@DeltaKroneckerGithub_6069"
+      - "@DeltaKroneckerGithub_6080"
+      - "@DeltaKroneckerGithub_6084"
+      - "@DeltaKroneckerGithub_6088"
       - "@DeltaKroneckerGithub_6116"
+      - "@DeltaKroneckerGithub_6135"
+      - "@DeltaKroneckerGithub_6145"
       - "@DeltaKroneckerGithub_6158"
-      - "@DeltaKroneckerGithub_6161"
-      - "@DeltaKroneckerGithub_6175"
-      - "@DeltaKroneckerGithub_6217"
-      - "@DeltaKroneckerGithub_6219"
-      - "@DeltaKroneckerGithub_6221"
-      - "@DeltaKroneckerGithub_6227"
-      - "@DeltaKroneckerGithub_6287"
-      - "@DeltaKroneckerGithub_6289"
-      - "@DeltaKroneckerGithub_6298"
-      - "@DeltaKroneckerGithub_6315"
-      - "@DeltaKroneckerGithub_6324"
-      - "@DeltaKroneckerGithub_6349"
-      - "@DeltaKroneckerGithub_6355"
-      - "@DeltaKroneckerGithub_6357"
-      - "@DeltaKroneckerGithub_6361"
+      - "@DeltaKroneckerGithub_6173"
+      - "@DeltaKroneckerGithub_6178"
+      - "@DeltaKroneckerGithub_6182"
+      - "@DeltaKroneckerGithub_6204"
+      - "@DeltaKroneckerGithub_6207"
+      - "@DeltaKroneckerGithub_6216"
+      - "@DeltaKroneckerGithub_6240"
+      - "@DeltaKroneckerGithub_6243"
+      - "@DeltaKroneckerGithub_6257"
+      - "@DeltaKroneckerGithub_6264"
+      - "@DeltaKroneckerGithub_6291"
+      - "@DeltaKroneckerGithub_6313"
+      - "@DeltaKroneckerGithub_6317"
+      - "@DeltaKroneckerGithub_6330"
+      - "@DeltaKroneckerGithub_6352"
+      - "@DeltaKroneckerGithub_6364"
       - "@DeltaKroneckerGithub_6369"
       - "@DeltaKroneckerGithub_6380"
-      - "@DeltaKroneckerGithub_6383"
-      - "@DeltaKroneckerGithub_6391"
-      - "@DeltaKroneckerGithub_6402"
-      - "@DeltaKroneckerGithub_6409"
-      - "@DeltaKroneckerGithub_6452"
-      - "@DeltaKroneckerGithub_6459"
-      - "@DeltaKroneckerGithub_6462"
-      - "@DeltaKroneckerGithub_6521"
-      - "@DeltaKroneckerGithub_6526"
-      - "@DeltaKroneckerGithub_6528"
-      - "@DeltaKroneckerGithub_6547"
-      - "@DeltaKroneckerGithub_6550"
-      - "@DeltaKroneckerGithub_6580"
-      - "@DeltaKroneckerGithub_6607"
-      - "@DeltaKroneckerGithub_6629"
-      - "@DeltaKroneckerGithub_6632"
-      - "@DeltaKroneckerGithub_6636"
-      - "@DeltaKroneckerGithub_6645"
-      - "@DeltaKroneckerGithub_6663"
-      - "@DeltaKroneckerGithub_6672"
-      - "@DeltaKroneckerGithub_6684"
+      - "@DeltaKroneckerGithub_6390"
+      - "@DeltaKroneckerGithub_6394"
+      - "@DeltaKroneckerGithub_6428"
+      - "@DeltaKroneckerGithub_6443"
+      - "@DeltaKroneckerGithub_6451"
+      - "@DeltaKroneckerGithub_6471"
+      - "@DeltaKroneckerGithub_6480"
+      - "@DeltaKroneckerGithub_6508"
+      - "@DeltaKroneckerGithub_6518"
+      - "@DeltaKroneckerGithub_6564"
+      - "@DeltaKroneckerGithub_6571"
+      - "@DeltaKroneckerGithub_6575"
+      - "@DeltaKroneckerGithub_6577"
+      - "@DeltaKroneckerGithub_6589"
+      - "@DeltaKroneckerGithub_6623"
+      - "@DeltaKroneckerGithub_6652"
+      - "@DeltaKroneckerGithub_6676"
       - "@DeltaKroneckerGithub_6700"
-      - "@DeltaKroneckerGithub_6761"
+      - "@DeltaKroneckerGithub_6707"
+      - "@DeltaKroneckerGithub_6715"
+      - "@DeltaKroneckerGithub_6724"
+      - "@DeltaKroneckerGithub_6738"
+      - "@DeltaKroneckerGithub_6741"
+      - "@DeltaKroneckerGithub_6757"
+      - "@DeltaKroneckerGithub_6762"
       - "@DeltaKroneckerGithub_6767"
-      - "@DeltaKroneckerGithub_6770"
-      - "@DeltaKroneckerGithub_6781"
-      - "@DeltaKroneckerGithub_6795"
-      - "@DeltaKroneckerGithub_6829"
-      - "@DeltaKroneckerGithub_6835"
-      - "@DeltaKroneckerGithub_6861"
-      - "@DeltaKroneckerGithub_6867"
-      - "@DeltaKroneckerGithub_6877"
-      - "@DeltaKroneckerGithub_6924"
-      - "@DeltaKroneckerGithub_6931"
+      - "@DeltaKroneckerGithub_6791"
+      - "@DeltaKroneckerGithub_6818"
+      - "@DeltaKroneckerGithub_6820"
+      - "@DeltaKroneckerGithub_6823"
 
 rules:
   - MATCH,PROXY

@@ -62,19 +62,103 @@ dns:
 proxies:
   - name: "🇸🇪_1"
     type: vless
-    server: "se.illusion-vpn.ru"
+    server: "se1.h1cloud.net"
+    port: 26226
+    uuid: "ec572cf0-1337-4c51-b4ec-ff2f538c1f4c"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.dn.se"
+    client-fingerprint: "random"
+    reality-opts:
+      public-key: "zsSr4H-YgykAOYdIYFaAnFQtIguRhP825FodeKSoxjA"
+      short-id: "2ddf3f1151012c98"
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "69effd3120f4"
+  - name: "🇸🇪_2"
+    type: vless
+    server: "732051t.se1.h1clayd.click"
+    port: 443
+    uuid: "ec572cf0-1337-4c51-b4ec-ff2f538c1f4c"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "732051t.se1.h1clayd.click"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "NqyAfxsF9xeJZi_5itA5VCxaja1ioXjw7xPM_QonKVk"
+      short-id: "0983a448f995e806"
+  - name: "🇸🇪_3"
+    type: vless
+    server: "163.245.43.50"
+    port: 443
+    uuid: "203d434a-2a92-45df-8973-ca80434ecf73"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "se-twitch.global-cdn.org"
+    client-fingerprint: "chrome"
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "content.v1.Feed"
+  - name: "🇸🇪_4"
+    type: vless
+    server: "swself2.yandex-api.com"
+    port: 443
+    uuid: "1b7ee703-fa08-4305-8469-ae3e30e61e44"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "swself2.yandex-api.com"
+    client-fingerprint: "random"
+    reality-opts:
+      public-key: "HXFe_cPryw01zqXchAFjZciDAS4UJg1-xScx6vjgjjY"
+      short-id: "7f2e9c4b1a8d6e25"
+    flow: "xtls-rprx-vision"
+  - name: "🇸🇪_5"
+    type: vless
+    server: "87.251.85.243"
     port: 8443
     uuid: "c193cfcb-8c8b-5b8c-8964-857162bc5971"
     udp: true
     tls: true
     skip-cert-verify: true
     servername: "se.illusion-vpn.ru"
-    client-fingerprint: "firefox"
+    client-fingerprint: "random"
     reality-opts:
       public-key: "j4xFKAF5O26vRXo4ebnV6hsHj-alYN7kbq2D6gOJ6zY"
       short-id: "c89a78fa6ca8da28"
     flow: "xtls-rprx-vision"
-  - name: "🇸🇪_2"
+  - name: "🇸🇪_6"
+    type: vless
+    server: "app-sh-152.wb-deep-ai-analytics.com"
+    port: 443
+    uuid: "0cf8e402-e801-4aeb-9b7a-00a933f9f1c1"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "assets-sh-152.wb-deep-ai-analytics.com"
+    client-fingerprint: "random"
+    reality-opts:
+      public-key: "TuYmcx74ATOEEL_wOHx5v-YxIDQLoPoiMZabNjDzGTs"
+      short-id: "bff04a00ff798fa4"
+    flow: "xtls-rprx-vision"
+  - name: "🇸🇪_7"
+    type: vless
+    server: "109.237.98.30"
+    port: 443
+    uuid: "c9c219dc-50da-4135-8e5b-67020291f0ec"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "gb1raiimnjr.deliverynet.site"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "esjSMExL6v40ksVJD5urvmQD4XZVWfBOCvStdk-q4DE"
+      short-id: "6ba85179e30d4fc2"
+    flow: "xtls-rprx-vision"
+  - name: "🇸🇪_8"
     type: vless
     server: "136.148.223.212"
     port: 25119
@@ -88,51 +172,20 @@ proxies:
       public-key: "szPq4a3cvxfBOmGyg-UJCV3d1Jqjnj7YR3gaxyYtnk4"
       short-id: "10f517"
     flow: "xtls-rprx-vision"
-  - name: "🇸🇪_3"
+  - name: "🇸🇪_9"
     type: vless
-    server: "62.60.159.81"
-    port: 2053
-    uuid: "fc00adfb-232a-46ce-8b93-0c70e516aa8a"
+    server: "se1.h1cloud.net"
+    port: 26100
+    uuid: "68c3d665-b2b5-4ffb-9f37-9f3d8c47324d"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.samsung.com"
+    servername: "www.icloud.com"
     client-fingerprint: "chrome"
     reality-opts:
-      public-key: "ygmJxS-Mc7g0buNSUTVGhazT-FoBjyYtLLfUYIQxFTw"
-      short-id: "d0ea1847066af5a6"
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "grpce5bb9e71"
-  - name: "🇸🇪_4"
-    type: vless
-    server: "31.77.158.128"
-    port: 443
-    uuid: "b1936288-a353-4ff1-89b3-edaead599c6b"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.lovelive-anime.jp"
-    client-fingerprint: "random"
-    reality-opts:
-      public-key: "oB_G3RLFa4E9XSUJzrfe3imPxG0eI32rl42xaB8ME3c"
-      short-id: "b63566f069feb01d"
-    flow: "xtls-rprx-vision"
-  - name: "🇸🇪_5"
-    type: vless
-    server: "45.138.103.238"
-    port: 443
-    uuid: "f8d52ece-fad4-478d-875d-df6eed3befa7"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "sw.golangwikito.cfd"
-    client-fingerprint: "random"
-    reality-opts:
-      public-key: "Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg"
-      short-id: "a1037b25dcef6aa7"
-    flow: "xtls-rprx-vision"
-  - name: "🇸🇪_6"
+      public-key: "1uuvuG2Jl_o6yoVvOYm3hEboArh2Znu7zCy4Tqj36TI"
+      short-id: "8045087bda646f1b"
+  - name: "🇸🇪_10"
     type: vless
     server: "2.26.55.163"
     port: 443
@@ -146,128 +199,76 @@ proxies:
       public-key: "0eWdILjmoRVSJFDMiQskgkKG2Fc4TEMZ3XEPJ8ez9Hw"
       short-id: ""
     flow: "xtls-rprx-vision"
-  - name: "🇸🇪_7"
-    type: vless
-    server: "31.76.3.34"
-    port: 443
-    uuid: "0d628b17-8ac4-49b9-a422-6b99077bfdf6"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "tradingview.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "CetY_ReGID1LBH275yWlxxOctI82PtgxR-fjYSRTKzM"
-      short-id: "8a2b3c4d5e6f7012"
-    flow: "xtls-rprx-vision"
-  - name: "🇸🇪_8"
-    type: vless
-    server: "se.manticore-vpn.lol"
-    port: 443
-    uuid: "b1936288-a353-4ff1-89b3-edaead599c6b"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.lovelive-anime.jp"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "oB_G3RLFa4E9XSUJzrfe3imPxG0eI32rl42xaB8ME3c"
-      short-id: "b63566f069feb01d"
-    flow: "xtls-rprx-vision"
-  - name: "🇸🇪_9"
-    type: vless
-    server: "163.245.43.50"
-    port: 443
-    uuid: "203d434a-2a92-45df-8973-ca80434ecf73"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "se-twitch.global-cdn.org"
-    client-fingerprint: "chrome"
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "content.v1.Feed"
-  - name: "🇸🇪_10"
-    type: vless
-    server: "specific3.kandnet.com"
-    port: 443
-    uuid: "621bcb9e-7df5-427b-a9d4-6e87223c8bca"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "specific3.kandnet.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "0eWdILjmoRVSJFDMiQskgkKG2Fc4TEMZ3XEPJ8ez9Hw"
-      short-id: ""
-    flow: "xtls-rprx-vision"
   - name: "🇸🇪_11"
     type: vless
-    server: "lte.homyak.app"
-    port: 41826
-    uuid: "2eb3f6a0-df6e-49b6-994c-177acdd50a97"
+    server: "193.27.200.200"
+    port: 443
+    uuid: "3db6eb7e-c548-11f1-9902-a337233c6cda"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "sweden.homyak.app"
-    network: httpupgrade
-    httpupgrade-opts:
-      path: "/"
+    servername: "swe.wizard.select"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "Sikc1gu5t_uwitf1xTTChP9tpT_sjY530p2tioHbmz0"
+      short-id: "3b20e438da99"
+    flow: "xtls-rprx-vision"
   - name: "🇸🇪_12"
     type: vless
-    server: "no.cnd.sweden.myfilecdn.com"
+    server: "swe.wizard.select"
     port: 443
-    uuid: "0d628b17-8ac4-49b9-a422-6b99077bfdf6"
+    uuid: "3db6eb7e-c548-11f1-9902-a337233c6cda"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "tradingview.com"
-    client-fingerprint: "qq"
+    servername: "swe.wizard.select"
+    client-fingerprint: "chrome"
     reality-opts:
-      public-key: "CetY_ReGID1LBH275yWlxxOctI82PtgxR-fjYSRTKzM"
-      short-id: "8a2b3c4d5e6f7012"
+      public-key: "Sikc1gu5t_uwitf1xTTChP9tpT_sjY530p2tioHbmz0"
+      short-id: "3b20e438da99"
     flow: "xtls-rprx-vision"
   - name: "🇸🇪_13"
     type: vless
-    server: "sw.golangwikito.cfd"
+    server: "91.196.35.130"
     port: 443
-    uuid: "f8d52ece-fad4-478d-875d-df6eed3befa7"
+    uuid: "0cf8e402-e801-4aeb-9b7a-00a933f9f1c1"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "sw.golangwikito.cfd"
-    client-fingerprint: "chrome"
+    servername: "assets-sh-152.wb-deep-ai-analytics.com"
+    client-fingerprint: "random"
     reality-opts:
-      public-key: "Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg"
-      short-id: "a1037b25dcef6aa7"
+      public-key: "TuYmcx74ATOEEL_wOHx5v-YxIDQLoPoiMZabNjDzGTs"
+      short-id: "bff04a00ff798fa4"
     flow: "xtls-rprx-vision"
   - name: "🇸🇪_14"
     type: vless
-    server: "no.cnd.estonia.myfilecdn.com"
+    server: "5.129.206.155"
     port: 443
-    uuid: "0d628b17-8ac4-49b9-a422-6b99077bfdf6"
+    uuid: "c9c219dc-50da-4135-8e5b-67020291f0ec"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "tradingview.com"
-    client-fingerprint: "qq"
+    servername: "p92e5mc7t.zenaltra-hub95.cyou"
+    client-fingerprint: "firefox"
     reality-opts:
-      public-key: "CetY_ReGID1LBH275yWlxxOctI82PtgxR-fjYSRTKzM"
-      short-id: "8a2b3c4d5e6f7012"
+      public-key: "esjSMExL6v40ksVJD5urvmQD4XZVWfBOCvStdk-q4DE"
+      short-id: "6ba85179e30d4fc2"
     flow: "xtls-rprx-vision"
   - name: "🇸🇪_15"
     type: vless
-    server: "31.207.7.117"
+    server: "5.129.198.189"
     port: 443
-    uuid: "524dd22d-9f8c-4cc4-9e12-f427f497dff4"
+    uuid: "c9c219dc-50da-4135-8e5b-67020291f0ec"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "se-twitch.global-cdn.org"
-    client-fingerprint: "chrome"
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "content.v1.Feed"
+    servername: "gb1raiimnjr.deliverynet.site"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "esjSMExL6v40ksVJD5urvmQD4XZVWfBOCvStdk-q4DE"
+      short-id: "6ba85179e30d4fc2"
+    flow: "xtls-rprx-vision"
   - name: "🇸🇪_16"
     type: vless
     server: "se3.h1cloud.net"
@@ -284,43 +285,114 @@ proxies:
     flow: "xtls-rprx-vision"
   - name: "🇸🇪_17"
     type: vless
-    server: "ru2-1.my-cdn.org"
+    server: "31.207.7.117"
     port: 443
-    uuid: "dbda882e-a0f4-4d8a-a41d-e520e8d688d3"
+    uuid: "524dd22d-9f8c-4cc4-9e12-f427f497dff4"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "videolink.okcdn.ru"
-    client-fingerprint: "random"
-    reality-opts:
-      public-key: "kbITklNKTdfvB6e3xy97pTV7gjl3Z3irv246oRZ5Gnk"
-      short-id: "aabbccdd"
-    flow: "xtls-rprx-vision"
+    servername: "se-twitch.global-cdn.org"
+    client-fingerprint: "chrome"
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "content.v1.Feed"
   - name: "🇸🇪_18"
-    type: trojan
-    server: "70.34.206.32"
-    port: 443
-    password: "Bw5Mz7QkVp"
-    sni: "z-v2-077787.kailib.com"
-    skip-cert-verify: true
+    type: vless
+    server: "lte.homyak.app"
+    port: 41826
+    uuid: "2eb3f6a0-df6e-49b6-994c-177acdd50a97"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "sweden.homyak.app"
+    network: httpupgrade
+    httpupgrade-opts:
+      path: "/"
   - name: "🇸🇪_19"
-    type: trojan
-    server: "38.180.56.158"
-    port: 443
-    password: "af4b064a9c39472fb34ad8b113acdc6b"
-    sni: "38.180.56.158"
-    skip-cert-verify: true
+    type: vless
+    server: "62.60.159.81"
+    port: 2053
+    uuid: "fc00adfb-232a-46ce-8b93-0c70e516aa8a"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.samsung.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "ygmJxS-Mc7g0buNSUTVGhazT-FoBjyYtLLfUYIQxFTw"
+      short-id: "d0ea1847066af5a6"
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "grpce5bb9e71"
   - name: "🇸🇪_20"
-    type: trojan
-    server: "65.20.113.246"
-    port: 443
-    password: "Bw5Mz7QkVp"
-    sni: "z-v2-074389.kailib.com"
-    skip-cert-verify: true
+    type: vless
+    server: "se.illusion-vpn.ru"
+    port: 8443
+    uuid: "c193cfcb-8c8b-5b8c-8964-857162bc5971"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "se.illusion-vpn.ru"
+    reality-opts:
+      public-key: "j4xFKAF5O26vRXo4ebnV6hsHj-alYN7kbq2D6gOJ6zY"
+      short-id: "c89a78fa6ca8da28"
+    flow: "xtls-rprx-vision"
   - name: "🇸🇪_21"
+    type: vless
+    server: "45.12.63.23"
+    port: 443
+    uuid: "c9c219dc-50da-4135-8e5b-67020291f0ec"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "p92e5mc7t.zenaltra-hub95.cyou"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "esjSMExL6v40ksVJD5urvmQD4XZVWfBOCvStdk-q4DE"
+      short-id: "6ba85179e30d4fc2"
+    flow: "xtls-rprx-vision"
+  - name: "🇸🇪_22"
+    type: vless
+    server: "5.129.201.44"
+    port: 443
+    uuid: "c9c219dc-50da-4135-8e5b-67020291f0ec"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "da087m9ay.zenaltra-hub95.cyou"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "esjSMExL6v40ksVJD5urvmQD4XZVWfBOCvStdk-q4DE"
+      short-id: "6ba85179e30d4fc2"
+    flow: "xtls-rprx-vision"
+  - name: "🇸🇪_23"
+    type: vless
+    server: "specific3.kandnet.com"
+    port: 443
+    uuid: "621bcb9e-7df5-427b-a9d4-6e87223c8bca"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "specific3.kandnet.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "0eWdILjmoRVSJFDMiQskgkKG2Fc4TEMZ3XEPJ8ez9Hw"
+      short-id: ""
+    flow: "xtls-rprx-vision"
+  - name: "🇸🇪_24"
+    type: vless
+    server: "138.124.96.88"
+    port: 41826
+    uuid: "2eb3f6a0-df6e-49b6-994c-177acdd50a97"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "sweden.homyak.app"
+    client-fingerprint: "random"
+    network: httpupgrade
+    httpupgrade-opts:
+      path: "/"
+  - name: "🇸🇪_25"
     type: trojan
     server: "45.91.171.116"
     port: 443
@@ -328,12 +400,36 @@ proxies:
     sni: "sto.freeguard.org"
     skip-cert-verify: true
     udp: true
-  - name: "🇸🇪_22"
+  - name: "🇸🇪_26"
     type: trojan
     server: "13.53.176.184"
     port: 443
     password: "TRY332RCOD4panalyy9nISleFSZDOYFwzXSSNaCCwYelEyDR230cxAZxDqFOTzA3AX68S"
     sni: "otcele.golfland.club"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇸🇪_27"
+    type: trojan
+    server: "65.20.113.246"
+    port: 443
+    password: "Bw5Mz7QkVp"
+    sni: "z-v2-074389.kailib.com"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇸🇪_28"
+    type: trojan
+    server: "70.34.206.32"
+    port: 443
+    password: "Bw5Mz7QkVp"
+    sni: "z-v2-077787.kailib.com"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇸🇪_29"
+    type: trojan
+    server: "38.180.56.158"
+    port: 443
+    password: "af4b064a9c39472fb34ad8b113acdc6b"
+    sni: "38.180.56.158"
     skip-cert-verify: true
     udp: true
 
@@ -374,6 +470,13 @@ proxy-groups:
       - "🇸🇪_20"
       - "🇸🇪_21"
       - "🇸🇪_22"
+      - "🇸🇪_23"
+      - "🇸🇪_24"
+      - "🇸🇪_25"
+      - "🇸🇪_26"
+      - "🇸🇪_27"
+      - "🇸🇪_28"
+      - "🇸🇪_29"
 
 
   - name: "Load Balance"
@@ -404,6 +507,13 @@ proxy-groups:
       - "🇸🇪_20"
       - "🇸🇪_21"
       - "🇸🇪_22"
+      - "🇸🇪_23"
+      - "🇸🇪_24"
+      - "🇸🇪_25"
+      - "🇸🇪_26"
+      - "🇸🇪_27"
+      - "🇸🇪_28"
+      - "🇸🇪_29"
 
 rules:
   - MATCH,PROXY

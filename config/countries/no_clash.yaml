@@ -62,25 +62,32 @@ dns:
 proxies:
   - name: "🇳🇴_1"
     type: vless
-    server: "pl3.richforever.ru"
-    port: 8443
-    uuid: "7918e6f6-df8f-4a20-9c1d-59dbd1f22770"
+    server: "72.56.239.218"
+    port: 443
+    uuid: "c9c219dc-50da-4135-8e5b-67020291f0ec"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "pl3.richforever.ru"
-    client-fingerprint: "safari"
+    servername: "v54bb8lv06.edgecache.click"
+    client-fingerprint: "firefox"
     reality-opts:
-      public-key: "lQcmwpXJsT5tdh9mQhcsDyiDNFe0nAVLvSc_5WnfqSY"
+      public-key: "fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA"
       short-id: ""
     flow: "xtls-rprx-vision"
   - name: "🇳🇴_2"
-    type: ss
-    server: "185.213.23.63"
-    port: 990
-    cipher: "chacha20-ietf-poly1305"
-    password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+    type: vless
+    server: "45.12.63.39"
+    port: 443
+    uuid: "c9c219dc-50da-4135-8e5b-67020291f0ec"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "wdubtg14ib7.edgecache.click"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA"
+      short-id: ""
+    flow: "xtls-rprx-vision"
   - name: "🇳🇴_3"
     type: ss
     server: "185.213.23.63"
