@@ -62,33 +62,6 @@ dns:
 proxies:
   - name: "🇹🇷_1"
     type: vless
-    server: "151.241.226.201"
-    port: 2053
-    uuid: "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.apple.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104"
-      short-id: "9e419c0759b54d6f"
-  - name: "🇹🇷_2"
-    type: vless
-    server: "185.42.14.128"
-    port: 443
-    uuid: "c9c219dc-50da-4135-8e5b-67020291f0ec"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "acc8aaia95.vortenix-data59.cfd"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇹🇷_3"
-    type: vless
     server: "85.192.48.142"
     port: 443
     uuid: "adc11f30-e4cb-4985-bf5e-f9ded69c019f"
@@ -100,7 +73,44 @@ proxies:
       public-key: "fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI"
       short-id: "db04ce8bdb8900f1"
     flow: "xtls-rprx-vision"
+  - name: "🇹🇷_2"
+    type: vless
+    server: "78.135.73.47"
+    port: 443
+    uuid: "25e16692-d097-4e69-9e2d-8415609c1968"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.datadoghq.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8"
+      short-id: "f46cd3ea3d1eb72d"
+    flow: "xtls-rprx-vision"
+  - name: "🇹🇷_3"
+    type: vless
+    server: "googol.wookshop.ir"
+    port: 17915
+    uuid: "439628ee-ef8e-4a3e-ba0f-091b7376dcb8"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "googol.wookshop.ir"
+    client-fingerprint: "chrome"
   - name: "🇹🇷_4"
+    type: vless
+    server: "217.11.164.183"
+    port: 2112
+    uuid: "03b0a000-a9f1-4ced-8a13-00e807d8b998"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bWIOrQAqUWCrz6BGdwaG42xaV-HEo8sUdGqVktUh0XU"
+      short-id: "68c328105c"
+  - name: "🇹🇷_5"
     type: vless
     server: "62.60.233.157"
     port: 8444
@@ -116,41 +126,47 @@ proxies:
     network: grpc
     grpc-opts:
       grpc-service-name: "GunService"
-  - name: "🇹🇷_5"
-    type: vless
-    server: "78.135.73.47"
-    port: 443
-    uuid: "25e16692-d097-4e69-9e2d-8415609c1968"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.datadoghq.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8"
-      short-id: "f46cd3ea3d1eb72d"
-    flow: "xtls-rprx-vision"
   - name: "🇹🇷_6"
     type: vless
-    server: "test.keoplentuio.xyz"
-    port: 2053
-    uuid: "9ef61079-6f7d-4911-9608-943da85d8e6f"
-    udp: true
-  - name: "🇹🇷_7"
-    type: vless
-    server: "147.45.213.56"
+    server: "81.177.215.156"
     port: 443
-    uuid: "c9c219dc-50da-4135-8e5b-67020291f0ec"
+    uuid: "9ee57d03-dcf5-488b-aff7-305301879353"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "acc8aaia95.vortenix-data59.cfd"
+    servername: "tr-4vps.yourzloy.site"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA"
-      short-id: ""
+      public-key: "VNinTQ6vwOujTkrJgK_NPV4SpSBU6B7xG2tpM7prITQ"
+      short-id: "fd5b0def0660cdb1"
     flow: "xtls-rprx-vision"
+  - name: "🇹🇷_7"
+    type: vless
+    server: "217.11.164.183"
+    port: 2102
+    uuid: "03b0a000-a9f1-4ced-8a13-00e807d8b998"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bWIOrQAqUWCrz6BGdwaG42xaV-HEo8sUdGqVktUh0XU"
+      short-id: "68c328105c"
   - name: "🇹🇷_8"
+    type: vless
+    server: "151.241.226.201"
+    port: 2053
+    uuid: "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104"
+      short-id: "9e419c0759b54d6f"
+  - name: "🇹🇷_9"
     type: trojan
     server: "194.87.39.133"
     port: 443
@@ -158,13 +174,20 @@ proxies:
     sni: "194.87.39.133"
     skip-cert-verify: true
     udp: true
-  - name: "🇹🇷_9"
+  - name: "🇹🇷_10"
     type: trojan
     server: "194.146.26.40"
     port: 443
     password: "2ea5fc44-bd38-4fb0-a9b9-88c83fc56622"
     sni: "4-193-105-141.nhost.00cdn.com"
     skip-cert-verify: true
+    udp: true
+  - name: "🇹🇷_11"
+    type: ss
+    server: "94.184.42.18"
+    port: 8880
+    cipher: "chacha20-ietf-poly1305"
+    password: "AWVyUgWWLc4G47GNo_bx2w"
     udp: true
 
 proxy-groups:
@@ -191,6 +214,8 @@ proxy-groups:
       - "🇹🇷_7"
       - "🇹🇷_8"
       - "🇹🇷_9"
+      - "🇹🇷_10"
+      - "🇹🇷_11"
 
 
   - name: "Load Balance"
@@ -208,6 +233,8 @@ proxy-groups:
       - "🇹🇷_7"
       - "🇹🇷_8"
       - "🇹🇷_9"
+      - "🇹🇷_10"
+      - "🇹🇷_11"
 
 rules:
   - MATCH,PROXY

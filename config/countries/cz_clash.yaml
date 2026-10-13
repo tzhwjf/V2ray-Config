@@ -62,37 +62,19 @@ dns:
 proxies:
   - name: "🇨🇿_1"
     type: vless
-    server: "153.76.185.168"
-    port: 3090
-    uuid: "0e9b538d-21d6-49c6-93da-20634d589497"
-    udp: true
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "vless"
-  - name: "🇨🇿_2"
-    type: vless
-    server: "153.76.185.158"
-    port: 3090
-    uuid: "f89a7c1b-8819-497d-afea-c4ca3ed0f864"
-    udp: true
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "vless"
-  - name: "🇨🇿_3"
-    type: vless
-    server: "5.254.49.34"
-    port: 995
-    uuid: "affb1e92-db55-4929-81e4-2e7e327b909b"
+    server: "5.39.202.125"
+    port: 443
+    uuid: "ace33fb8-c593-4b17-8f72-f3359b6e9638"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "prague.yyuyy.com"
+    servername: "czekkk.loknietotop.digital"
     client-fingerprint: "random"
-    network: httpupgrade
-    httpupgrade-opts:
-      path: "/api/v1"
-      host: "prague.yyuyy.com"
-  - name: "🇨🇿_4"
+    reality-opts:
+      public-key: "WU5baXUzRH9BceiYI8MPBmDMEloTFImx2vvE5uh1yjM"
+      short-id: "f19e02a2fb573c18"
+    flow: "xtls-rprx-vision"
+  - name: "🇨🇿_2"
     type: vless
     server: "31.76.7.227"
     port: 443
@@ -105,6 +87,20 @@ proxies:
     reality-opts:
       public-key: "nIL5EeUo2XUkCaLJGbzgRm6zhF-96kWvV2VmhEt3CX4"
       short-id: "4af4102cb26e59"
+    flow: "xtls-rprx-vision"
+  - name: "🇨🇿_3"
+    type: vless
+    server: "czekkk.loknietotop.digital"
+    port: 443
+    uuid: "ace33fb8-c593-4b17-8f72-f3359b6e9638"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "czekkk.loknietotop.digital"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "WU5baXUzRH9BceiYI8MPBmDMEloTFImx2vvE5uh1yjM"
+      short-id: "f19e02a2fb573c18"
     flow: "xtls-rprx-vision"
 
 proxy-groups:
@@ -125,7 +121,6 @@ proxy-groups:
       - "🇨🇿_1"
       - "🇨🇿_2"
       - "🇨🇿_3"
-      - "🇨🇿_4"
 
 
   - name: "Load Balance"
@@ -137,7 +132,6 @@ proxy-groups:
       - "🇨🇿_1"
       - "🇨🇿_2"
       - "🇨🇿_3"
-      - "🇨🇿_4"
 
 rules:
   - MATCH,PROXY

@@ -62,26 +62,22 @@ dns:
 proxies:
   - name: "🇪🇸_1"
     type: vless
-    server: "es2.h1cloud.net"
-    port: 25535
-    uuid: "c379d8e4-c67d-42ec-a3ed-ca99d1ad0546"
+    server: "213.182.201.135"
+    port: 3090
+    uuid: "bc2322c4-c59c-41e1-b784-c5314eae7f18"
     udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.microsoft.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "Jh7CocBJSA55VZcLfXwXwoQ_Hi5pV-L1vv1SY-IrSh4"
-      short-id: "7642ce57308852e7"
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "vless"
   - name: "🇪🇸_2"
     type: vless
-    server: "85.90.217.42"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    server: "213.182.201.136"
+    port: 3090
+    uuid: "5555f391-0bda-432b-bb4d-617ac357131d"
     udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "85.90.217.42"
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "vless"
   - name: "🇪🇸_3"
     type: vless
     server: "nl.bootless.ru"
@@ -98,19 +94,6 @@ proxies:
     flow: "xtls-rprx-vision"
   - name: "🇪🇸_4"
     type: vless
-    server: "es3.h1cloud.net"
-    port: 25136
-    uuid: "c1c13ef7-affa-47e1-8967-25cc67679c10"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "nkmfL3QCskKAfBUk-OiTgcWyIXGmXrZVtDEoio0Qo1w"
-      short-id: "f78838fbd85e59ae"
-  - name: "🇪🇸_5"
-    type: vless
     server: "46.28.71.247"
     port: 443
     uuid: "12c53e32-e589-47d6-b857-e4132294f767"
@@ -122,33 +105,16 @@ proxies:
       public-key: "v4MuZIvFrTPT5GHMSaPryUAbIZlLstmsUTzmC1E-JTE"
       short-id: "0dfc23fe80778c00"
     flow: "xtls-rprx-vision"
+  - name: "🇪🇸_5"
+    type: vless
+    server: "85.90.217.42"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "85.90.217.42"
   - name: "🇪🇸_6"
-    type: vless
-    server: "196.245.52.146"
-    port: 25535
-    uuid: "c379d8e4-c67d-42ec-a3ed-ca99d1ad0546"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.microsoft.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "Jh7CocBJSA55VZcLfXwXwoQ_Hi5pV-L1vv1SY-IrSh4"
-      short-id: "7642ce57308852e7"
-  - name: "🇪🇸_7"
-    type: vless
-    server: "es3.h1cloud.net"
-    port: 25136
-    uuid: "440b5558-e701-4c6f-8de2-d24dcf1ebbe6"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.cloudflare.com"
-    client-fingerprint: "random"
-    reality-opts:
-      public-key: "nkmfL3QCskKAfBUk-OiTgcWyIXGmXrZVtDEoio0Qo1w"
-      short-id: "f78838fbd85e59ae"
-  - name: "🇪🇸_8"
     type: vless
     server: "129.101.121.70"
     port: 8443
@@ -162,48 +128,57 @@ proxies:
       public-key: "xX9ZxZRrF_EER9-8fOegxR97HV5KaMaftAD7eq10UXw"
       short-id: "75dd7e79a7876314"
     flow: "xtls-rprx-vision"
-  - name: "🇪🇸_9"
+  - name: "🇪🇸_7"
     type: vless
-    server: "109.237.98.221"
-    port: 443
-    uuid: "c9c219dc-50da-4135-8e5b-67020291f0ec"
+    server: "196.245.52.146"
+    port: 25535
+    uuid: "c379d8e4-c67d-42ec-a3ed-ca99d1ad0546"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "x0t3101sjj.originhub.site"
+    servername: "www.microsoft.com"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "waUvU_PYX9kshdI5kYhf25185HH9pkQzc39sP-KMynE"
-      short-id: ""
-    flow: "xtls-rprx-vision"
+      public-key: "Jh7CocBJSA55VZcLfXwXwoQ_Hi5pV-L1vv1SY-IrSh4"
+      short-id: "7642ce57308852e7"
+  - name: "🇪🇸_8"
+    type: vless
+    server: "213.182.201.138"
+    port: 3090
+    uuid: "bc2322c4-c59c-41e1-b784-c5314eae7f18"
+    udp: true
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "vless"
+  - name: "🇪🇸_9"
+    type: vless
+    server: "es3.h1cloud.net"
+    port: 25136
+    uuid: "440b5558-e701-4c6f-8de2-d24dcf1ebbe6"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.cloudflare.com"
+    client-fingerprint: "random"
+    reality-opts:
+      public-key: "nkmfL3QCskKAfBUk-OiTgcWyIXGmXrZVtDEoio0Qo1w"
+      short-id: "f78838fbd85e59ae"
   - name: "🇪🇸_10"
+    type: vless
+    server: "213.182.201.132"
+    port: 3090
+    uuid: "5555f391-0bda-432b-bb4d-617ac357131d"
+    udp: true
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "vless"
+  - name: "🇪🇸_11"
     type: trojan
     server: "65.20.102.54"
     port: 443
     password: "842b5f9dd11e458d8613c907c4cc5723"
     sni: "www.gpt123.one"
     skip-cert-verify: true
-    udp: true
-  - name: "🇪🇸_11"
-    type: ss
-    server: "108.181.121.226"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "WSyL4XTwNsdv"
-    udp: true
-  - name: "🇪🇸_12"
-    type: ss
-    server: "108.181.121.226"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "WSyL4XTwNsdv"
-    udp: true
-  - name: "🇪🇸_13"
-    type: ss
-    server: "108.181.121.226"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "WSyL4XTwNsdv"
     udp: true
 
 proxy-groups:
@@ -232,8 +207,6 @@ proxy-groups:
       - "🇪🇸_9"
       - "🇪🇸_10"
       - "🇪🇸_11"
-      - "🇪🇸_12"
-      - "🇪🇸_13"
 
 
   - name: "Load Balance"
@@ -253,8 +226,6 @@ proxy-groups:
       - "🇪🇸_9"
       - "🇪🇸_10"
       - "🇪🇸_11"
-      - "🇪🇸_12"
-      - "🇪🇸_13"
 
 rules:
   - MATCH,PROXY
