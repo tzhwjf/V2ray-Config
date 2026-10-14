@@ -62,6 +62,20 @@ dns:
 proxies:
   - name: "🇦🇱_1"
     type: vless
+    server: "45.155.69.230"
+    port: 443
+    uuid: "0de1d303-d7de-e033-8679-c4cb67e2e2cc"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "amd.com"
+    client-fingerprint: "qq"
+    reality-opts:
+      public-key: "WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc"
+      short-id: "a696de84963656de"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇱_2"
+    type: vless
     server: "95.85.224.51"
     port: 443
     uuid: "342ab7e4-5a89-0001-8809-304120d4aa83"
@@ -74,14 +88,14 @@ proxies:
       public-key: "WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc"
       short-id: "a696de84963656de"
     flow: "xtls-rprx-vision"
-  - name: "🇦🇱_2"
+  - name: "🇦🇱_3"
     type: ss
     server: "130.49.189.158"
     port: 43558
     cipher: "chacha20-ietf-poly1305"
     password: "52+ggoCvKFVJyT1NDiuWOZw2rHIvAg3tgqgJl8aeCwY="
     udp: true
-  - name: "🇦🇱_3"
+  - name: "🇦🇱_4"
     type: ss
     server: "130.49.189.158"
     port: 43558
@@ -107,6 +121,7 @@ proxy-groups:
       - "🇦🇱_1"
       - "🇦🇱_2"
       - "🇦🇱_3"
+      - "🇦🇱_4"
 
 
   - name: "Load Balance"
@@ -118,6 +133,7 @@ proxy-groups:
       - "🇦🇱_1"
       - "🇦🇱_2"
       - "🇦🇱_3"
+      - "🇦🇱_4"
 
 rules:
   - MATCH,PROXY

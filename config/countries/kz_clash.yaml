@@ -75,62 +75,19 @@ proxies:
       short-id: "fa"
   - name: "🇰🇿_2"
     type: vless
-    server: "206.223.249.90"
-    port: 33891
-    uuid: "9977ba41-b6aa-4033-9492-2f6abfcade31"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "browser.yandex.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "fj5f0rWTOAgd2gqCCWgag3oAGwb6MCef3OFNdnQLWW8"
-      short-id: "f5bc6788"
-    flow: "xtls-rprx-vision"
-  - name: "🇰🇿_3"
-    type: vless
-    server: "109.248.170.119"
-    port: 13447
-    uuid: "b573cefb-7bc7-4a42-b407-b8b534e66773"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "yahoo.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE"
-      short-id: "83"
-  - name: "🇰🇿_4"
-    type: vless
-    server: "176.12.74.226"
+    server: "111.88.142.52"
     port: 443
-    uuid: "9ee57d03-dcf5-488b-aff7-305301879353"
+    uuid: "7b9b233c-c646-4859-88b2-2a55695c6487"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "kz-first.yourzloy.site"
+    servername: "kz.urobotix.tech"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "vL7_EY1_SpsyEROqEDtLaatpZEmna_VixzsEfWI5wDo"
-      short-id: "aef88ffbbfde7dea"
+      public-key: "jQx41aPKBwFCRKregjdLMmwo4ShIYfjHWIMIl-0HJhc"
+      short-id: "288d01b2"
     flow: "xtls-rprx-vision"
-  - name: "🇰🇿_5"
-    type: vless
-    server: "5.252.33.175"
-    port: 9882
-    uuid: "5d16ac22-6eea-426f-b778-6f4c2961faef"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "dl.google.com"
-    client-fingerprint: "random"
-    reality-opts:
-      public-key: "bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU"
-      short-id: "aabbccdd"
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "grpc-tunnel"
-  - name: "🇰🇿_6"
+  - name: "🇰🇿_3"
     type: vless
     server: "77.73.232.61"
     port: 19747
@@ -143,6 +100,32 @@ proxies:
     reality-opts:
       public-key: "ZO9dTeg1slvTXgVsBsaJ1BDvz_YUImTLJjbHs-GdVyM"
       short-id: "2001"
+  - name: "🇰🇿_4"
+    type: vless
+    server: "109.248.170.119"
+    port: 13447
+    uuid: "b573cefb-7bc7-4a42-b407-b8b534e66773"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "yahoo.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE"
+      short-id: "83"
+  - name: "🇰🇿_5"
+    type: vless
+    server: "178.236.16.98"
+    port: 35728
+    uuid: "a00d89f6-ab7e-4e30-a5e5-54c701d62c93"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "yahoo.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng"
+      short-id: "69a2"
 
 proxy-groups:
   - name: "PROXY"
@@ -164,7 +147,6 @@ proxy-groups:
       - "🇰🇿_3"
       - "🇰🇿_4"
       - "🇰🇿_5"
-      - "🇰🇿_6"
 
 
   - name: "Load Balance"
@@ -178,7 +160,6 @@ proxy-groups:
       - "🇰🇿_3"
       - "🇰🇿_4"
       - "🇰🇿_5"
-      - "🇰🇿_6"
 
 rules:
   - MATCH,PROXY

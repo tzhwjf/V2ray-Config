@@ -76,19 +76,6 @@ proxies:
     flow: "xtls-rprx-vision"
   - name: "🇨🇭_2"
     type: vless
-    server: "208.69.78.217"
-    port: 2053
-    uuid: "c0dd6d59-1573-43af-8b70-1470b2632a6d"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.apple.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0"
-      short-id: "ad86e2d52ff40ebd"
-  - name: "🇨🇭_3"
-    type: vless
     server: "ch.srv.vbuste.ru"
     port: 444
     uuid: "318c935d-c195-41d3-99ad-9bbcfdab3386"
@@ -103,6 +90,19 @@ proxies:
     network: grpc
     grpc-opts:
       grpc-service-name: ""
+  - name: "🇨🇭_3"
+    type: vless
+    server: "208.69.78.217"
+    port: 2053
+    uuid: "c0dd6d59-1573-43af-8b70-1470b2632a6d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0"
+      short-id: "ad86e2d52ff40ebd"
   - name: "🇨🇭_4"
     type: trojan
     server: "83.228.224.161"

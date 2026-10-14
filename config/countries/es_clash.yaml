@@ -62,24 +62,6 @@ dns:
 proxies:
   - name: "🇪🇸_1"
     type: vless
-    server: "213.182.201.135"
-    port: 3090
-    uuid: "bc2322c4-c59c-41e1-b784-c5314eae7f18"
-    udp: true
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "vless"
-  - name: "🇪🇸_2"
-    type: vless
-    server: "213.182.201.136"
-    port: 3090
-    uuid: "5555f391-0bda-432b-bb4d-617ac357131d"
-    udp: true
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "vless"
-  - name: "🇪🇸_3"
-    type: vless
     server: "nl.bootless.ru"
     port: 8443
     uuid: "a96ad3ea-4820-43d2-bbf3-27c6bf19d652"
@@ -92,6 +74,33 @@ proxies:
       public-key: "xX9ZxZRrF_EER9-8fOegxR97HV5KaMaftAD7eq10UXw"
       short-id: "75dd7e79a7876314"
     flow: "xtls-rprx-vision"
+  - name: "🇪🇸_2"
+    type: vless
+    server: "193.238.154.78"
+    port: 443
+    uuid: "897d47f8-4dd5-42a1-bcd0-bef19caff55a"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "gateway.icloud.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "4eE3K8Eac-ELze-LwRyJolqmhPqgCVqwQM1DKu6i0Ts"
+      short-id: "e93d46ee3735069e"
+    flow: "xtls-rprx-vision"
+  - name: "🇪🇸_3"
+    type: vless
+    server: "es3.h1cloud.net"
+    port: 25136
+    uuid: "440b5558-e701-4c6f-8de2-d24dcf1ebbe6"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.cloudflare.com"
+    client-fingerprint: "random"
+    reality-opts:
+      public-key: "nkmfL3QCskKAfBUk-OiTgcWyIXGmXrZVtDEoio0Qo1w"
+      short-id: "f78838fbd85e59ae"
   - name: "🇪🇸_4"
     type: vless
     server: "46.28.71.247"
@@ -115,64 +124,6 @@ proxies:
     skip-cert-verify: true
     servername: "85.90.217.42"
   - name: "🇪🇸_6"
-    type: vless
-    server: "129.101.121.70"
-    port: 8443
-    uuid: "a96ad3ea-4820-43d2-bbf3-27c6bf19d652"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "storage.yandex.net"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "xX9ZxZRrF_EER9-8fOegxR97HV5KaMaftAD7eq10UXw"
-      short-id: "75dd7e79a7876314"
-    flow: "xtls-rprx-vision"
-  - name: "🇪🇸_7"
-    type: vless
-    server: "196.245.52.146"
-    port: 25535
-    uuid: "c379d8e4-c67d-42ec-a3ed-ca99d1ad0546"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.microsoft.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "Jh7CocBJSA55VZcLfXwXwoQ_Hi5pV-L1vv1SY-IrSh4"
-      short-id: "7642ce57308852e7"
-  - name: "🇪🇸_8"
-    type: vless
-    server: "213.182.201.138"
-    port: 3090
-    uuid: "bc2322c4-c59c-41e1-b784-c5314eae7f18"
-    udp: true
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "vless"
-  - name: "🇪🇸_9"
-    type: vless
-    server: "es3.h1cloud.net"
-    port: 25136
-    uuid: "440b5558-e701-4c6f-8de2-d24dcf1ebbe6"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.cloudflare.com"
-    client-fingerprint: "random"
-    reality-opts:
-      public-key: "nkmfL3QCskKAfBUk-OiTgcWyIXGmXrZVtDEoio0Qo1w"
-      short-id: "f78838fbd85e59ae"
-  - name: "🇪🇸_10"
-    type: vless
-    server: "213.182.201.132"
-    port: 3090
-    uuid: "5555f391-0bda-432b-bb4d-617ac357131d"
-    udp: true
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "vless"
-  - name: "🇪🇸_11"
     type: trojan
     server: "65.20.102.54"
     port: 443
@@ -202,11 +153,6 @@ proxy-groups:
       - "🇪🇸_4"
       - "🇪🇸_5"
       - "🇪🇸_6"
-      - "🇪🇸_7"
-      - "🇪🇸_8"
-      - "🇪🇸_9"
-      - "🇪🇸_10"
-      - "🇪🇸_11"
 
 
   - name: "Load Balance"
@@ -221,11 +167,6 @@ proxy-groups:
       - "🇪🇸_4"
       - "🇪🇸_5"
       - "🇪🇸_6"
-      - "🇪🇸_7"
-      - "🇪🇸_8"
-      - "🇪🇸_9"
-      - "🇪🇸_10"
-      - "🇪🇸_11"
 
 rules:
   - MATCH,PROXY
